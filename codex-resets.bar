@@ -1,7 +1,7 @@
 <bar protocol-version="0"
      id="codex-resets"
      title="Codex Resets"
-     version="0.1.1"
+     version="0.1.2"
      category="ai"
      refresh="2m"
      placements="menubar"
@@ -12,7 +12,7 @@
 
   <permissions>
     <network origin="https://codex-resets.com" />
-    <network origin="https://cdn.jsdelivr.net" />
+    <network origin="https://registry.npmmirror.com" />
   </permissions>
 
   <inputs>
@@ -29,9 +29,9 @@
 // Codex Resets 仪表盘：追踪 OpenAI Codex 额度重置公告（codex-resets.com）。
 // 常驻 ES Module Worker：Vue h() 构建原生组件树 + reactive 状态，不做任何挂载。
 
-// Vue 3 runtime-core 从 jsDelivr 的 ESM 产物按需加载（@vue/runtime-core@3.5.13），
-// 不再内联 90 KB 运行时。代价：首次冷启动需联网约 70 KB，离线 fixture 会失败。
-import * as __VUE__ from "https://cdn.jsdelivr.net/npm/@vue/runtime-core@3.5.13/+esm";
+// Vue 运行时不内联：冷启动时从 npmmirror 取官方 ESM 构建（vue@3.5.13，约 100 KB，单文件无裸导入）。
+// 选国内镜像而非 jsDelivr，是因为大陆访问更稳定。代价：离线时首次加载会失败。
+import * as __VUE__ from "https://registry.npmmirror.com/vue/3.5.13/files/dist/vue.runtime.esm-browser.prod.js";
 
 const { h, reactive } = __VUE__;
 

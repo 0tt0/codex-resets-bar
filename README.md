@@ -8,12 +8,12 @@ A dashboard for [Metrix.Bar](https://metrix.bar) that sits in your menu bar, wat
 
 ## Install
 
-**Download and open** — click [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.1/codex-resets.bar), then open the file. Metrix.Bar handles `.bar` files, so opening it goes straight to the import confirmation.
+**Download and open** — click [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.2/codex-resets.bar), then open the file. Metrix.Bar handles `.bar` files, so opening it goes straight to the import confirmation.
 
 **Direct import link** — paste this into your browser's address bar:
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.1%2Fcodex-resets.bar&sha256=073339c4e820d96ce23eb2726d10e2758d24f90e58e8d15e220c9c7dd014d3bd
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.2%2Fcodex-resets.bar&sha256=eb95a9aad90b9c4117795dcd839a0378c8df55611f2a1b9e984967f02b230bfe
 ```
 
 GitHub strips custom URL schemes from rendered Markdown, so the direct link is copyable text rather than a clickable anchor. Neither path touches a registry.
@@ -41,4 +41,4 @@ One setting, in the dashboard's settings: **new reset alerts**, on by default. E
 
 ## License
 
-[Apache-2.0](LICENSE). The Vue runtime is loaded from jsDelivr at startup rather than bundled here, and remains under its MIT license. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the service this dashboard monitors.
+[Apache-2.0](LICENSE). The Vue runtime is loaded at startup from the npmmirror CDN rather than bundled here, and remains under its MIT license. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the service this dashboard monitors.

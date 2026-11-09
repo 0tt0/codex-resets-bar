@@ -8,12 +8,12 @@ Codex 额度什么时候重置，你不用再盯着官网刷新。
 
 ## 安装
 
-**下载后打开** —— 点击 [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.1/codex-resets.bar)，再打开下载好的文件。Metrix.Bar 已关联 `.bar` 文件类型，打开即进入导入确认。
+**下载后打开** —— 点击 [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.2/codex-resets.bar)，再打开下载好的文件。Metrix.Bar 已关联 `.bar` 文件类型，打开即进入导入确认。
 
 **直连导入链接** —— 把下面这行粘到浏览器地址栏：
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.1%2Fcodex-resets.bar&sha256=073339c4e820d96ce23eb2726d10e2758d24f90e58e8d15e220c9c7dd014d3bd
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.2%2Fcodex-resets.bar&sha256=eb95a9aad90b9c4117795dcd839a0378c8df55611f2a1b9e984967f02b230bfe
 ```
 
 GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制的文本给出。两种方式都不经过注册表。
@@ -41,4 +41,4 @@ GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制的
 
 ## 许可
 
-[Apache-2.0](LICENSE)。Vue 运行时在启动时从 jsDelivr 加载，不随本仓库分发，仍适用其 MIT 协议。「OpenAI」「Codex」为 OpenAI 商标，此处仅用于标识本看板所监控的服务。
+[Apache-2.0](LICENSE)。Vue 运行时在启动时从 npmmirror 镜像加载，不随本仓库分发，仍适用其 MIT 协议。「OpenAI」「Codex」为 OpenAI 商标，此处仅用于标识本看板所监控的服务。
