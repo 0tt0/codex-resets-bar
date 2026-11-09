@@ -2,6 +2,8 @@
 
 Codex 额度什么时候重置，你不用再盯着官网刷新。
 
+![Codex Resets 面板：最近一次重置、统计、四个月日历与公告流](screenshot.webp)
+
 一个常驻菜单栏的 [Metrix.Bar](https://metrix.bar) 看板，盯着 OpenAI Codex 的重置公告，一有新动静就告诉你。
 
 [English](README.md)
