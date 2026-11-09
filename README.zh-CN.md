@@ -14,15 +14,15 @@ Codex 额度什么时候重置，你不用再盯着官网刷新。
 
 | 构建 | 界面 | Vue 运行时来自 | 大小 |
 |---|---|---|---|
-| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets.bar) | 中文 | JSDMirror（jsDelivr 国内镜像） | 32 KB |
-| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets-en.bar) | English | jsDelivr | 32 KB |
+| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets.bar) | 中文 | JSDMirror（jsDelivr 国内镜像） | 32 KB |
+| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets-en.bar) | English | jsDelivr | 32 KB |
 
 下载后打开即可：Metrix.Bar 已关联 `.bar` 文件类型，打开就进入导入确认。
 
 或者把直连导入命令粘到浏览器地址栏：
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdmirror.com%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.3%2Fcodex-resets.bar&sha256=3d9b8c4686d824b8be04bccffb38d47078be0d5ebd011f4b1ea6e1f4ec2bde58
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdmirror.com%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.4%2Fcodex-resets.bar&sha256=88d682087b4eb91be78798b564e6abd4e94fb69bbaa1a20d7b1358f5942766dd
 ```
 
 GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制文本给出。想装英文版，把域名换成 `cdn.jsdelivr.net`、文件名换成 `codex-resets-en.bar`。

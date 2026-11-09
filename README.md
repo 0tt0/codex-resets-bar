@@ -14,15 +14,15 @@ Two builds, identical panel behaviour, different interface language and runtime 
 
 | Build | Interface | Vue runtime from | Size |
 |---|---|---|---|
-| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets-en.bar) | English | jsDelivr | 32 KB |
-| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets.bar) | 中文 | JSDMirror | 32 KB |
+| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets-en.bar) | English | jsDelivr | 32 KB |
+| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets.bar) | 中文 | JSDMirror | 32 KB |
 
 Download the file and open it — Metrix.Bar registers the `.bar` file type, so it goes straight to the import confirmation.
 
 Or paste this into your browser's address bar:
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.3%2Fcodex-resets-en.bar&sha256=6e3233b23746948311e2a3d03d784745c512cf0f94ecf64e0ad93c9228d387de
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.4%2Fcodex-resets-en.bar&sha256=85a45e9a0aefd0970abde97604c66049f30784815a85c72614cb6876d83b97c1
 ```
 
 GitHub strips custom URL schemes from rendered Markdown, so the link is copyable text rather than a clickable anchor. For the Chinese build, swap `jsdelivr.net` for `jsdmirror.com` and `codex-resets-en.bar` for `codex-resets.bar`.

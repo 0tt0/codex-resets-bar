@@ -1,7 +1,7 @@
 <bar protocol-version="0"
      id="codex-resets-en"
      title="Codex Resets"
-     version="0.1.3"
+     version="0.1.4"
      category="ai"
      refresh="2m"
      placements="menubar"
@@ -577,8 +577,9 @@ function panelTree() {
   // 分享态仅把内层 Scroll 换成 Column，让内容溢出渲染，从而能截到 600px 以下的部分。
   // 分享态：外层保持 600 高（窗口不抖），但背景需覆盖溢出的内容，
   // 故在分享态下让内层 Column 自带奶油底色并向下延伸。
+  // 分享态内层显式撑到截图高度：否则 600 以下的溢出区没有奶油底，截图会露出系统灰边。
   const inner = state.sharing
-    ? el("Column", { fillWidth: true, background: C.PAPER }, Body())
+    ? el("Column", { fillWidth: true, height: SHOT_HEIGHT, background: C.PAPER }, Body())
     : el("Scroll", { grow: 1, basis: 0, fillWidth: true }, Body());
   return el("Column", {
     width: W, height: H, fontSize: 13, textColor: C.INK, background: C.PAPER,
