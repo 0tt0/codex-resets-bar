@@ -2,8 +2,6 @@
 
 Never miss a Codex quota reset again.
 
-![The Codex Resets panel: latest reset, stats, a four-month calendar and recent announcements](screenshot-en.webp)
-
 A dashboard for [Metrix.Bar](https://metrix.bar) that sits in your menu bar, watches OpenAI Codex reset announcements, and tells you the moment one lands — no tab to keep open, no site to refresh.
 
 [中文说明](README.zh-CN.md)
@@ -39,6 +37,8 @@ Once installed the panel declares `placements="menubar"` and `open-mode="flyout"
 - **Pace at a glance** — resets in the last 30 days, average interval, days since the last one.
 - **Alerts that don't lie** — a notification and toast when a new announcement appears; installing never fires a stale one.
 - **Share without screenshotting by hand** — one click copies a capture of the panel to your clipboard.
+
+![The Codex Resets panel: latest reset, stats, a four-month calendar and recent announcements](screenshot-en.webp)
 
 ## When the network misbehaves
 
