@@ -10,15 +10,26 @@ Codex 额度什么时候重置，你不用再盯着官网刷新。
 
 ## 安装
 
-**下载后打开** —— 点击 [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.2/codex-resets.bar)，再打开下载好的文件。Metrix.Bar 已关联 `.bar` 文件类型，打开即进入导入确认。
+两个构建，面板行为一致，只是界面语言和运行时镜像不同：
 
-**直连导入链接** —— 把下面这行粘到浏览器地址栏：
+| 构建 | 界面 | Vue 运行时来自 | 大小 |
+|---|---|---|---|
+| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets.bar) | 中文 | JSDMirror（jsDelivr 国内镜像） | 32 KB |
+| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.3/codex-resets-en.bar) | English | jsDelivr | 32 KB |
+
+下载后打开即可：Metrix.Bar 已关联 `.bar` 文件类型，打开就进入导入确认。
+
+或者把直连导入命令粘到浏览器地址栏：
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.2%2Fcodex-resets.bar&sha256=eb95a9aad90b9c4117795dcd839a0378c8df55611f2a1b9e984967f02b230bfe
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdmirror.com%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.3%2Fcodex-resets.bar&sha256=3d9b8c4686d824b8be04bccffb38d47078be0d5ebd011f4b1ea6e1f4ec2bde58
 ```
 
-GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制的文本给出。两种方式都不经过注册表。
+GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制文本给出。想装英文版，把域名换成 `cdn.jsdelivr.net`、文件名换成 `codex-resets-en.bar`。
+
+两种方式都由 Metrix.Bar 校验 HTTPS 来源、展示看板申请的权限，确认后才安装。本地安装保留原始看板 ID，把下载地址记为来源，不会挂到任何注册表。
+
+装好后看板声明了 `placements="menubar"` 与 `open-mode="flyout"`：常驻菜单栏，点击展开 380×600 下拉面板。两个构建都遵循 `.bar` 协议版本 0。
 
 ## 它能帮你做什么
 
@@ -43,4 +54,4 @@ GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制的
 
 ## 许可
 
-[Apache-2.0](LICENSE)。Vue 运行时在启动时从 npmmirror 镜像加载，不随本仓库分发，仍适用其 MIT 协议。「OpenAI」「Codex」为 OpenAI 商标，此处仅用于标识本看板所监控的服务。
+[Apache-2.0](LICENSE)。Vue 运行时在启动时从公共 CDN 加载（英文构建走 jsDelivr，中文构建走 JSDMirror 镜像），不随本仓库分发，仍适用其 MIT 协议。「OpenAI」「Codex」为 OpenAI 商标，此处仅用于标识本看板所监控的服务。

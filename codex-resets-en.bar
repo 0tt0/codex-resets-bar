@@ -1,0 +1,604 @@
+<bar protocol-version="0"
+     id="codex-resets-en"
+     title="Codex Resets"
+     version="0.1.3"
+     category="ai"
+     refresh="2m"
+     placements="menubar"
+     open-mode="flyout"
+     description="Tracks OpenAI Codex quota reset announcements and alerts you when a new one drops."
+     homepage="https://codex-resets.com"
+     icon="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzRDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+">
+
+  <permissions>
+    <network origin="https://codex-resets.com" />
+    <network origin="https://cdn.jsdelivr.net" />
+  </permissions>
+
+  <inputs>
+    <input name="notifyEnabled"
+           type="bool"
+           default="true"
+           label="New reset alerts"
+           help="Send a system notification when a new reset announcement appears." />
+  </inputs>
+
+  <docs><![CDATA[Data comes from the public codex-resets.com API, which follows Codex quota reset announcements from @thsottiaux. The first load only records the latest announcement, so installing never fires a stale alert; after that it checks every 2 minutes and notifies you when a new one appears (toggle "New reset alerts"). The panel shows the three most recent announcements and links to the full archive on codex-resets.com.]]></docs>
+
+  <script apis="screenshot clipboard shell"><![CDATA[
+// Codex Resets 仪表盘：追踪 OpenAI Codex 额度重置公告（codex-resets.com）。
+// 常驻 ES Module Worker：Vue h() 构建原生组件树 + reactive 状态，不做任何挂载。
+
+// Vue 运行时不内联：冷启动时从 JSDMirror（jsDelivr 国内镜像）取官方 ESM 构建（vue@3.5.13，约 100 KB）。
+// 中文版配 JSDMirror，大陆访问更稳定；英文版走 jsDelivr。代价：离线时首次加载会失败。
+import * as __VUE__ from "https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js";
+
+const { h, reactive } = __VUE__;
+
+
+// ---------------------------------------------------------------------------
+// 基础辅助：h() 封装（过滤空子节点，避免生成占位节点）
+// ---------------------------------------------------------------------------
+
+// 子节点支持变参传入；过滤空值，避免 Vue 生成占位节点。
+const flat = c => (Array.isArray(c) ? c.flat(8).filter(x => x !== null && x !== undefined && x !== false) : c);
+const el = (type, props, ...children) => h(type, props || {}, flat(children));
+
+// h() 产出的是 VNode 对象；宿主要求纯 JSON 组件树，这里递归归一化：
+// 取 type / props / children，文本子节点折叠为字符串。
+function toJSON(node) {
+  if (node == null || node === false) return null;
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(toJSON).filter(x => x != null);
+  if (typeof node !== "object") return null;
+  if (!node.__v_isVNode) return null;          // Fragment/Comment 等非元素节点丢弃
+  const out = { type: node.type, props: node.props || {} };
+  const kids = toJSON(node.children);
+  if (kids != null && !(Array.isArray(kids) && kids.length === 0)) out.children = kids;
+  return out;
+}
+const TX = (text, props) => el("Text", { text: String(text), ...props });
+
+// ---------------------------------------------------------------------------
+// 风格常量
+// ---------------------------------------------------------------------------
+
+const C = {
+  PAPER: "#fff4dd",  // 整体背景
+  CARD: "#fffdf7",    // 卡片底色
+  INK: "#26201a",     // 主文字色
+  ACCENT: "#ff5c2b",  // 强调橙（常规重置）
+  SUN: "#ffd84d",     // 太阳黄
+  ROSE: "#ffb9cc",    // 玫瑰粉
+  SKY: "#a5dcff",     // 天空蓝
+  PEACH: "#ffb07a",   // 蜜桃（备用额度）
+  MINT: "#b9e6a6",    // 薄荷绿
+  MUTED: "#8a7a63",   // 低饱和辅助文字
+  TILE: "#f1e6c8",    // 日历无重置日底色（低饱和）
+  LINE: "#e8d9b0",    // 次级描边
+  HOVER: "#f3e9cf",   // 悬停底色
+  TODAY: "#b9a883",   // 日历"今天"标记描边（低对比，不抢眼）
+  HAIR: "#f0e4c6",    // 极浅描边（白卡在奶油底上勾个边）
+};
+const W = 380;
+const H = 600;
+const API = "https://codex-resets.com/api/v1";
+const SITE = "https://codex-resets.com";
+
+// ---------------------------------------------------------------------------
+// 图标（单色 currentColor）
+// ---------------------------------------------------------------------------
+
+const svgWrap = paths => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
+// Codex 官方图标（单色 currentColor，配合 iconTemplate 自动适配深浅色菜单栏）
+const CODEX_ICON = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzRDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+";
+
+const ICON = {
+  refresh: svgWrap(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/>`),
+  alert: svgWrap(`<circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/>`),
+  // 分享：iOS 风格方框 + 上箭头
+  share: svgWrap(`<path d="M12 15V3"/><path d="m8 7 4-4 4 4"/><path d="M4 13v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/>`),
+};
+const Icon = (svg, size, color, extra) =>
+  el("Icon", { svg, width: size, height: size, fontSize: size, textColor: color || C.INK, shrink: 0, ...extra });
+
+// ---------------------------------------------------------------------------
+// 时间格式化
+// ---------------------------------------------------------------------------
+
+// 相对时间：英文（5m ago / in 2d），兼容未来时间（值守预测）
+function relTime(iso) {
+  const t = Date.parse(iso || "");
+  if (!Number.isFinite(t)) return "—";
+  let ms = Date.now() - t;
+  const future = ms < 0;
+  ms = Math.abs(ms);
+  const min = Math.floor(ms / 60e3);
+  if (min < 1) return "just now";
+  const hr = Math.floor(min / 60);
+  const day = Math.floor(hr / 24);
+  const mon = Math.floor(day / 30);
+  let n, unit;
+  if (min < 60) { n = min; unit = "m"; }
+  else if (hr < 24) { n = hr; unit = "h"; }
+  else if (day < 30) { n = day; unit = "d"; }
+  else if (mon < 12) { n = mon; unit = "mo"; }
+  else { n = Math.floor(mon / 12); unit = "y"; }
+  return future ? "in " + n + unit : n + unit + " ago";
+}
+
+// 绝对时间：本地默认时区 / UTC（Worker 无 Intl，手工格式化）
+function absTime(iso) {
+  const t = Date.parse(iso || "");
+  if (!Number.isFinite(t)) return "—";
+  const d = new Date(t);
+  const utc = state.tzMode === "utc";
+  const p = n => String(n).padStart(2, "0");
+  const date = utc
+    ? d.getUTCFullYear() + "-" + p(d.getUTCMonth() + 1) + "-" + p(d.getUTCDate())
+    : d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+  const time = utc
+    ? p(d.getUTCHours()) + ":" + p(d.getUTCMinutes())
+    : p(d.getHours()) + ":" + p(d.getMinutes());
+  return date + " " + time + (utc ? " UTC" : "");
+}
+
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const pad2 = n => String(n).padStart(2, "0");
+const hhmm = t => { const d = new Date(t); return pad2(d.getHours()) + ":" + pad2(d.getMinutes()); };
+const daysSince = iso => {
+  const t = Date.parse(iso || "");
+  return Number.isFinite(t) ? (Date.now() - t) / 864e5 : null;
+};
+// 保留一位小数，整数不带小数点
+const fmtDays = v => String(v >= 10 ? Math.round(v) : Math.round(v * 10) / 10);
+
+// ---------------------------------------------------------------------------
+// 状态（模块级 reactive）
+// ---------------------------------------------------------------------------
+
+const state = reactive({
+  status: null,          // /status 解析结果
+  resets: [],            // /resets 列表（时间倒序）
+  error: "",             // 最近一次请求错误（失败时保留旧数据）
+  loading: false,
+  lastSeenResetId: "",    // 已提醒过的最新公告 id（首次加载只记录）
+  tzMode: "local",       // "local" | "utc"
+  sharing: false,        // 正在截图分享
+  lastLoadedAt: 0,
+});
+let inflight = null;
+
+// ---------------------------------------------------------------------------
+// 数据读取（防御字段缺失）
+// ---------------------------------------------------------------------------
+
+const num = v => (Number.isFinite(v) ? v : null);
+
+function readReset(raw) {
+  if (!raw || typeof raw !== "object") return null;
+  const out = {
+    id: String(raw.id || ""),
+    type: raw.reset_type === "banked" ? "banked" : "regular",
+    at: String(raw.announced_at || ""),
+    text: String(raw.text || ""),
+    url: String(raw.source && raw.source.url || ""),
+  };
+  if (!out.id && !out.at && !out.text) return null;
+  return out;
+}
+
+function readStatus(body) {
+  const d = body && body.data && typeof body.data === "object" ? body.data : {};
+  const stats = d.stats && typeof d.stats === "object" ? d.stats : {};
+  return {
+    latest: readReset(d.latest_reset),
+    scheduled: readReset(d.scheduled_reset),   // 可能为 null
+    watch: readReset(d.active_watch),         // 可能为 null
+    total: num(Number(stats.total)),
+    lastResetAt: String(stats.last_reset_at || ""),
+    daysSinceLast: num(Number(stats.days_since_last)),
+    avgIntervalDays: num(Number(stats.avg_interval_days)),
+    generatedAt: String(body && body.meta && body.meta.generated_at || ""),
+  };
+}
+
+async function getJSON(url) {
+  const res = await fetch(url, { headers: { Accept: "application/json" } });
+  if (!res.ok) throw new Error("codex-resets.com request failed: HTTP " + res.status);
+  let body;
+  try { body = await res.json(); } catch (e) { throw new Error("Response is not valid JSON."); }
+  if (!body || typeof body !== "object") throw new Error("Unexpected response shape.");
+  return body;
+}
+
+// ---------------------------------------------------------------------------
+// 加载 + 新公告提醒
+// ---------------------------------------------------------------------------
+
+async function load(env) {
+  const [st, rs] = await Promise.all([
+    getJSON(API + "/status"),
+    getJSON(API + "/resets?limit=100"),
+  ]);
+  const next = readStatus(st);
+  const list = Array.isArray(rs && rs.data) ? rs.data.map(readReset).filter(Boolean) : [];
+  state.status = next;
+  state.resets = list;
+  state.error = "";
+  state.lastLoadedAt = Date.now();
+  // 提醒逻辑：首次加载只记录最新公告 id；之后 id 变化才提醒
+  const latest = next.latest;
+  if (latest && latest.id) {
+    if (state.lastSeenResetId && state.lastSeenResetId !== latest.id) {
+      const on = !(env && env.inputs && env.inputs.notifyEnabled === false);
+      if (on) {
+        const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "…" : latest.text;
+        $metrix.notify("Codex quota reset", summary || "Open the announcement");
+        $metrix.toast("Codex quota reset");
+      }
+    }
+    state.lastSeenResetId = latest.id;
+  }
+}
+
+function refresh(env) {
+  if (inflight) return inflight;
+  state.loading = true;
+  $metrix.invalidate();
+  inflight = load(env)
+    .catch(e => { state.error = String(e && e.message || e); })   // 失败保留旧数据
+    .finally(() => { inflight = null; state.loading = false; $metrix.invalidate(); });
+  return inflight;
+}
+const launchRefresh = () => { void refresh(); };
+const openSite = () => $metrix.openURL(SITE);
+
+// 分享：对面板截图并复制到剪贴板。
+// 实测约束：
+// 1. 需在 <script apis="..."> 声明 screenshot，否则 $metrix.panel 是空对象。
+// 2. 必须等面板 commit 后再调用；同步直调会报 context canceled。
+// 3. 常规面板固定 600 高 + Scroll 会裁掉内容；截图前切"分享态"把 Scroll 换成 Column，
+//    内容溢出渲染即可截全。根容器高度保持 600 不变，窗口不抖动。
+//    内容实测 722 DIP 高（标题→页脚），取 722 正好贴合，底部不会露出系统灰底。
+const SHOT_HEIGHT = 722;
+
+let sharing = false;
+function shareShot() {
+  if (sharing) return;
+  if (typeof ($metrix.panel && $metrix.panel.screenshot) !== "function") {
+    $metrix.notify("Codex Resets", "Screenshot needs a newer Metrix.Bar");
+    return;
+  }
+  sharing = true;
+  state.sharing = true;
+  $metrix.invalidate();                     // 渲染展开态（完整内容）
+  setTimeout(() => {
+    (async () => {
+      try {
+        const blob = await $metrix.panel.screenshot({ scale: 2, height: SHOT_HEIGHT });
+        await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+        $metrix.notify("Codex Resets", "Screenshot copied to clipboard");
+      } catch (e) {
+        $metrix.notify("Codex Resets", "Screenshot failed: " + String((e && e.message) || e));
+      } finally {
+        sharing = false;
+        state.sharing = false;
+        $metrix.invalidate();               // 恢复常规 600px 面板
+      }
+    })();
+  }, 1500);
+}
+
+// ---------------------------------------------------------------------------
+// 组件
+// ---------------------------------------------------------------------------
+
+const card = (children, extra) => el("Box", {
+  background: C.CARD, border: [1, C.HAIR], radius: 13, padding: 14,
+  fillWidth: true, shrink: 0, ...extra,
+}, children);
+
+function IconButton(name, label, onClick, busy) {
+  return el("Column", {
+    width: 26, height: 26, center: true, radius: 7, shrink: 0,
+    label, tooltip: label, cursor: "pointer",
+    hover: { background: C.HOVER }, pressed: { background: C.TILE }, onClick,
+  }, Icon(ICON[name], 14, C.INK, busy ? {
+    keyframes: { duration: 900, repeat: -1, ease: "linear", frames: [{ at: 0, rotate: 0 }, { at: 1, rotate: 360 }] },
+  } : null));
+}
+
+// 类型徽章：regular=「常规重置」橙系 / banked=「备用额度」蜜桃系
+function TypeBadge(type) {
+  const banked = type === "banked";
+  return el("Badge", {
+    text: banked ? "Banked" : "Regular",
+    background: banked ? C.PEACH : C.ACCENT,
+    textColor: banked ? C.INK : C.CARD,
+    fontSize: 10, fontWeight: 600, padding: [2, 6], radius: 6, shrink: 0,
+  });
+}
+
+function updateLine() {
+  if (!state.lastLoadedAt) return "Not loaded yet";
+  return "Updated " + hhmm(state.lastLoadedAt) + (state.error ? " · last request failed" : "");
+}
+
+// 1. 头部：标题 + 副标题 + 数据更新时间
+function Header() {
+  return el("Column", { gap: 2, fillWidth: true, shrink: 0 },
+    el("Row", { gap: 8, alignItems: "center", fillWidth: true },
+      TX("Codex Resets", { fontSize: 15, fontWeight: 700, singleLine: true }),
+      el("Spacer"),
+      // 更新时间放在右侧，紧跟刷新按钮
+      TX(updateLine(), { fontSize: 10, textColor: C.MUTED, singleLine: true }),
+      IconButton("refresh", "Refresh now", launchRefresh, state.loading),
+      IconButton("share", "Copy screenshot", shareShot, state.sharing)),
+    TX("Watching Codex resets for you", { fontSize: 11, textColor: C.MUTED, singleLine: true }));
+}
+
+// 2. Hero 卡：大号相对时间 + 绝对时间（本地/UTC 切换）+ 类型徽章
+// 分段控件自绘：原生 Segmented 的文字取系统主题色，在奶油卡片上深色模式会不可读。
+function TZSwitch() {
+  const seg = (value, label) => {
+    const active = state.tzMode === value;
+    return el("Box", {
+      padding: [3, 9], radius: 6, shrink: 0, cursor: "pointer",
+      background: active ? C.INK : C.TILE,
+      onClick: () => { state.tzMode = value; $metrix.invalidate(); },
+    }, TX(label, { fontSize: 10, fontWeight: 600, singleLine: true, textColor: active ? C.CARD : C.MUTED }));
+  };
+  return el("Row", {
+    gap: 0, padding: 2, radius: 8, shrink: 0,
+    background: C.TILE, border: [1, C.LINE], alignItems: "center",
+  }, seg("local", "Local"), seg("utc", "UTC"));
+}
+
+function Hero() {
+  const latest = state.status && state.status.latest;
+  return card([
+    el("Row", { gap: 6, alignItems: "center", fillWidth: true },
+      TX("Latest quota reset", { fontSize: 11, textColor: C.MUTED, singleLine: true }),
+      el("Spacer"),
+      TZSwitch()),
+    latest && latest.at
+      ? el("Column", { gap: 5, fillWidth: true, padding: [2, 0, 0, 0] },
+          TX(relTime(latest.at), { fontSize: 34, fontWeight: 700, singleLine: true }),
+          el("Row", { gap: 8, alignItems: "center", wrap: true },
+            TX(absTime(latest.at), { fontSize: 11, textColor: C.MUTED }),
+            TypeBadge(latest.type)))
+      : el("Column", { gap: 6, padding: [10, 0] },
+          TX("No data yet", { fontSize: 26, fontWeight: 700 }),
+          TX("Waiting for codex-resets.com", { fontSize: 11, textColor: C.MUTED })),
+  ]);
+}
+
+// 3. 待定值守卡：scheduled_reset / active_watch 判空渲染
+function Watch() {
+  if (!state.status) return null;
+  const s = state.status;
+  const slot = (title, r) => {
+    if (!r || (!r.at && !r.text)) return null;   // 防御字段缺失
+    return el("Column", { gap: 4, fillWidth: true },
+      el("Row", { gap: 6, alignItems: "center", wrap: true },
+        TX(title, { fontSize: 11, fontWeight: 600, textColor: C.ACCENT, singleLine: true }),
+        r.at ? TX(relTime(r.at), { fontSize: 11, singleLine: true }) : null,
+        r.at ? TX(absTime(r.at), { fontSize: 10, textColor: C.MUTED, singleLine: true }) : null),
+      r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null);
+  };
+  const scheduled = slot("Scheduled", s.scheduled);
+  const watch = slot("Watching", s.watch);
+  if (!scheduled && !watch) return null;   // 无值守时不占位
+  return card([
+    TX("Resets being watched", { fontSize: 12, fontWeight: 600 }),
+    el("Column", { gap: 10, fillWidth: true, padding: [6, 0, 0, 0] },
+      scheduled, watch,
+      TX("AI prediction, not an official promise", { fontSize: 10, textColor: C.MUTED })),
+  ]);
+}
+
+// 4. 统计瓦片行：重置次数 / 平均间隔 / 距上次（太阳黄 / 玫瑰粉 / 天空蓝）
+// 近 30 天内的重置次数（Hero 卡已展示"距上次"，此处换成不重复的近期密度）
+function recentCount(days) {
+  const cut = Date.now() - days * 864e5;
+  let n = 0;
+  for (const r of state.resets) {
+    const t = Date.parse(r.at);
+    if (Number.isFinite(t) && t >= cut) n++;
+  }
+  return n;
+}
+
+function Stats() {
+  const s = state.status;
+  const tile = (bg, label, value) => el("Box", {
+    background: bg, border: [1, C.HAIR], radius: 10, padding: [10, 10],
+    grow: 1, basis: 0,
+  }, el("Column", { gap: 2 },
+    TX(label, { fontSize: 10, singleLine: true }),
+    TX(value, { fontSize: 16, fontWeight: 700, singleLine: true })));
+  return el("Grid", { columns: 3, gap: 8, fillWidth: true, shrink: 0 },
+    tile(C.SUN, "Resets", s && s.total != null ? String(s.total) : "—"),
+    tile(C.ROSE, "Avg. interval", s && s.avgIntervalDays != null ? fmtDays(s.avgIntervalDays) + " d" : "—"),
+    tile(C.SKY, "Last 30 days", String(recentCount(30))));
+}
+
+// 5. 日历热力图：近 4 个月按月分组，橙=常规、蜜桃=备用
+function Heatmap() {
+  const map = {};   // 本地日期 → reset_type
+  for (const r of state.resets) {
+    const t = Date.parse(r.at);
+    if (!Number.isFinite(t)) continue;
+    const d = new Date(t);
+    const key = d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+    if (!(key in map)) map[key] = r.type;   // 同一天多条取最新一条
+  }
+  const now = new Date();
+  const todayKey = now.getFullYear() + "-" + pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+  const rows = [];
+  for (let i = 3; i >= 0; i--) {
+    const first = new Date(now.getFullYear(), now.getMonth() - i, 1);
+    const dim = new Date(first.getFullYear(), first.getMonth() + 1, 0).getDate();
+    const cells = [];
+    for (let d = 1; d <= dim; d++) {
+      const key = first.getFullYear() + "-" + pad2(first.getMonth() + 1) + "-" + pad2(d);
+      const type = map[key];
+      // 每格 grow:1 自适应铺满可用宽度（固定 7px 会右侧大片留白）
+      cells.push(el("Box", {
+        aspectRatio: 1, radius: 2, grow: 1, basis: 0, shrink: 1,
+        background: type ? (type === "banked" ? C.PEACH : C.ACCENT) : C.TILE,
+        opacity: key > todayKey ? 0.35 : 1,
+        ...(key === todayKey ? { border: [1, C.TODAY] } : null),
+        tooltip: key + (type ? " · " + (type === "banked" ? "banked" : "regular") + " reset" : " · no reset"),
+      }));
+    }
+    rows.push(el("Row", { gap: 8, alignItems: "center", fillWidth: true },
+      TX(MONTHS[first.getMonth()], { fontSize: 10, textColor: C.MUTED, width: 30, shrink: 0 }),
+      el("Row", { gap: 2, wrap: false, fillWidth: true, grow: 1, basis: 0 }, cells)));
+  }
+  const swatch = (color, label) => el("Row", { gap: 4, alignItems: "center" },
+    el("Box", { width: 8, height: 8, radius: 2, background: color, shrink: 0 }),
+    TX(label, { fontSize: 10, textColor: C.MUTED }));
+  return card([
+    TX("Reset calendar (4 months)", { fontSize: 12, fontWeight: 600 }),
+    el("Column", { gap: 4, fillWidth: true, padding: [8, 0, 0, 0] }, rows),
+    el("Row", { gap: 12, padding: [8, 0, 0, 0] },
+      swatch(C.ACCENT, "Orange = regular"),
+      swatch(C.PEACH, "Peach = banked")),
+  ]);
+}
+
+// 6. 公告流：相对+绝对时间 + 原文 + X 链接
+// 公告卡：整卡可点直达推文，绝对时间收进 tooltip，避免四组信息挤在一行
+function FeedItem(r) {
+  const open = r.url ? { onClick: () => $metrix.openURL(r.url), cursor: "pointer" } : null;
+  return el("Box", {
+    background: C.CARD, border: [1, C.HAIR], radius: 10, padding: [10, 12],
+    fillWidth: true, shrink: 0, tooltip: absTime(r.at) + (r.url ? " · click to open on X" : ""),
+    hover: open ? { background: C.HOVER } : null,
+    ...(open || null),
+  }, el("Column", { gap: 4, fillWidth: true },
+    el("Row", { gap: 6, alignItems: "center", wrap: true },
+      TypeBadge(r.type),
+      TX(relTime(r.at), { fontSize: 11, fontWeight: 600 })),
+    r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null));
+}
+
+// 公告固定展示最近 3 条，其余引导到官网查看完整归档。
+const FEED_COUNT = 3;
+function Feed() {
+  const list = state.resets;
+  const shown = list.slice(0, FEED_COUNT);
+  return el("Column", { gap: 8, fillWidth: true, shrink: 0 },
+    el("Row", { gap: 6, alignItems: "center", fillWidth: true },
+      TX("Announcements", { fontSize: 12, fontWeight: 600 }),
+      TX(list.length ? "latest " + shown.length + " of " + list.length : "", { fontSize: 10, textColor: C.MUTED })),
+    shown.map(r => FeedItem(r)),
+    list.length > FEED_COUNT
+      ? el("Row", { center: true, fillWidth: true },
+          el("Link", { text: "View all " + list.length + " →", url: SITE, href: SITE,
+            fontSize: 10, textColor: C.MUTED }))
+      : null);
+}
+
+// 错误横幅：保留旧数据的同时提示失败 + 重试
+function ErrorBanner() {
+  return el("Row", {
+    gap: 8, padding: [8, 10], radius: 8, background: C.ROSE, border: [1, C.INK],
+    alignItems: "center", fillWidth: true, shrink: 0,
+  },
+    Icon(ICON.alert, 13, C.INK),
+    TX(state.error, { fontSize: 11, grow: 1, shrink: 1, lineHeight: 1.3 }),
+    el("Button", { onClick: launchRefresh }, "Retry"));
+}
+
+// 7. 底部来源说明
+function Footer() {
+  return TX("Data from codex-resets.com (watching @thsottiaux) · not affiliated with OpenAI",
+    { fontSize: 10, textColor: C.MUTED, textAlign: "center", lineHeight: 1.4, padding: [2, 0, 6, 0] });
+}
+
+function Problem() {
+  return el("Column", { gap: 10, center: true, padding: [36, 20], fillWidth: true, grow: 1 },
+    Icon(ICON.alert, 22, C.ACCENT),
+    TX("Failed to load", { fontSize: 14, fontWeight: 600, textAlign: "center" }),
+    TX(state.error, { fontSize: 11, textColor: C.MUTED, textAlign: "center", lineHeight: 1.35 }),
+    el("Button", { onClick: launchRefresh }, "Retry"));
+}
+
+function Loading() {
+  return el("Column", { gap: 12, center: true, padding: [40, 20], fillWidth: true },
+    el("Spinner"),
+    TX("Fetching from codex-resets.com…", { fontSize: 12, textColor: C.MUTED }));
+}
+
+function Body() {
+  const hasData = !!(state.status || state.resets.length);
+  if (!hasData) return state.error ? Problem() : Loading();
+  return el("Column", { gap: 12, padding: [14, 16, 10, 16], fillWidth: true },
+    state.error ? ErrorBanner() : null,
+    Header(),
+    Hero(),
+    Watch(),
+    Stats(),
+    Heatmap(),
+    Feed(),
+    Footer());
+}
+
+// ---------------------------------------------------------------------------
+// tray / panel
+// ---------------------------------------------------------------------------
+
+function trayTree() {
+  const s = state.status;
+  const latest = s && s.latest;
+  let days = s && s.daysSinceLast != null ? s.daysSinceLast : null;
+  if (days == null) days = daysSince(s && s.lastResetAt || latest && latest.at || "");
+  const title = days != null ? fmtDays(days) + "d" : state.error ? "!" : "—";
+  const tip = latest && latest.text
+    ? "Codex Resets · last reset " + relTime(latest.at) + " · " + latest.text.slice(0, 60)
+    : "Codex Resets";
+  return {
+    icon: CODEX_ICON,
+    iconTemplate: true,
+    title,
+    tooltip: tip,
+    menu: [
+      { label: "Refresh now", onClick: launchRefresh },
+      { label: "Open codex-resets.com", onClick: openSite },
+    ],
+  };
+}
+
+function panelTree() {
+  // 根容器高度恒定：窗口尺寸不随分享状态变化，避免截图时窗口抖动。
+  // 分享态仅把内层 Scroll 换成 Column，让内容溢出渲染，从而能截到 600px 以下的部分。
+  // 分享态：外层保持 600 高（窗口不抖），但背景需覆盖溢出的内容，
+  // 故在分享态下让内层 Column 自带奶油底色并向下延伸。
+  const inner = state.sharing
+    ? el("Column", { fillWidth: true, background: C.PAPER }, Body())
+    : el("Scroll", { grow: 1, basis: 0, fillWidth: true }, Body());
+  return el("Column", {
+    width: W, height: H, fontSize: 13, textColor: C.INK, background: C.PAPER,
+    shortcuts: { "CmdOrCtrl+R": launchRefresh },
+  }, inner);
+}
+
+export default {
+  async scheduled(env) {
+    await refresh(env);
+  },
+
+  render() {
+    return { tray: trayTree(), panel: toJSON(panelTree()) };
+  },
+
+  event(name, payload) {
+    if (name === "lifecycle" && payload && payload.type === "expand" && !inflight &&
+        Date.now() - state.lastLoadedAt > 120e3) launchRefresh();
+  },
+};
+  ]]></script>
+</bar>
