@@ -2,56 +2,40 @@
 
 Never miss a Codex quota reset again.
 
-A dashboard for [Metrix.Bar](https://metrix.bar) that sits in your menu bar, watches OpenAI Codex reset announcements, and tells you the moment one lands — no tab to keep open, no site to refresh.
-
-[中文说明](README.zh-CN.md)
+A menu bar dashboard for [Metrix.Bar](https://metrix.bar) that watches OpenAI Codex reset announcements and tells you when one lands. [中文说明](README.zh-CN.md)
 
 ## Install
 
-Two builds, identical panel behaviour, different interface language and runtime CDN:
+Open a build, then open the downloaded file — Metrix.Bar imports `.bar` files directly.
 
-| Build | Interface | Vue runtime from | Size |
-|---|---|---|---|
-| [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets-en.bar) | English | jsDelivr | 32 KB |
-| [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets.bar) | 中文 | JSDMirror | 32 KB |
+- **English** — [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets-en.bar)
+- **中文** — [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets.bar)
 
-Download the file and open it — Metrix.Bar registers the `.bar` file type, so it goes straight to the import confirmation.
-
-Or paste this into your browser's address bar:
+Or paste this into your browser's address bar to import straight from the CDN:
 
 ```text
 metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.4%2Fcodex-resets-en.bar&sha256=85a45e9a0aefd0970abde97604c66049f30784815a85c72614cb6876d83b97c1
 ```
 
-GitHub strips custom URL schemes from rendered Markdown, so the link is copyable text rather than a clickable anchor. For the Chinese build, swap `jsdelivr.net` for `jsdmirror.com` and `codex-resets-en.bar` for `codex-resets.bar`.
-
-Either way Metrix.Bar validates the HTTPS source, shows the requested permissions, and installs after you confirm. A local install keeps the original dashboard ID, records the download as its provenance, and never joins a registry.
-
-Once installed the panel declares `placements="menubar"` and `open-mode="flyout"`: it lives in the menu bar and opens as a 380×600 flyout. Both builds target `.bar` protocol version 0.
+GitHub strips custom schemes from rendered Markdown, so that link is copyable text rather than a clickable anchor. For the Chinese build, swap `jsdelivr.net` → `jsdmirror.com` and `codex-resets-en.bar` → `codex-resets.bar`.
 
 ## What you get
 
-- **How long since the last reset** — a large relative time plus the exact timestamp, switchable between local time and UTC.
-- **Which kind of reset it was** — regular resets and banked allowances are labelled differently, so you know what dropped.
-- **The rhythm, not just the latest one** — a four-month calendar heatmap of resets.
-- **Pace at a glance** — resets in the last 30 days, average interval, days since the last one.
-- **Alerts that don't lie** — a notification and toast when a new announcement appears; installing never fires a stale one.
-- **Share without screenshotting by hand** — one click copies a capture of the panel to your clipboard.
+- **How long since the last reset**, in local time or UTC.
+- **Regular vs. banked** resets, labelled differently.
+- **A four-month calendar** — the rhythm, not just the latest entry.
+- **Pace**: resets in 30 days, average interval, days since the last.
+- **A notification when a new announcement drops**, and never a stale one on install.
+- **One-click screenshot sharing.**
 
 ![The Codex Resets panel: latest reset, stats, a four-month calendar and recent announcements](screenshot-en.webp)
 
-## When the network misbehaves
+## Good to know
 
-A failed refresh keeps the last good data on screen and offers Retry, so a flaky connection never leaves you with an empty panel. Requests go directly to `codex-resets.com`, which must be reachable from your machine.
+It refreshes every 2 minutes; a failed request keeps the last good data and offers Retry. Requests go straight to `codex-resets.com`, so that host must be reachable. Alerts are on by default and can be turned off in dashboard settings.
 
-## Configure
+## Credits & license
 
-One setting, in the dashboard's settings: **new reset alerts**, on by default. Everything else is deliberately fixed — refresh every 2 minutes, the latest three announcements, with a link to the full archive.
+Data comes from the public [codex-resets.com](https://codex-resets.com) API. Not affiliated with codex-resets.com or OpenAI.
 
-## Where the numbers come from
-
-[codex-resets.com](https://codex-resets.com) publishes a public API; this dashboard reads `/status` and `/resets` and links back to the site. It is **not affiliated with codex-resets.com or OpenAI**.
-
-## License
-
-[Apache-2.0](LICENSE). The Vue runtime is loaded at startup from a public CDN (jsDelivr for the English build, JSDMirror for the Chinese build) rather than bundled here, and remains under its MIT license. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the service this dashboard monitors.
+[Apache-2.0](LICENSE). Vue is loaded from a CDN at startup and stays under MIT. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the monitored service.
