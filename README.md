@@ -12,19 +12,21 @@ It is a `.bar` file: one text artifact containing metadata, an inline Vue 3 runt
 
 ## Install
 
-**[Install with Metrix.Bar →](metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.0%2Fcodex-resets.bar&sha256=4a52068dc8b281ae7d60df3d32c0e071807f6a975fb5e6112464d86ce82ab3de)**
+Two one-step paths, neither needs a registry:
 
-One click, no registry needed. The link is a `.bar` direct import:
+**Download and open** — click [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.0/codex-resets.bar), then open the downloaded file. Metrix.Bar registers the `.bar` file type, so opening it leads straight to the import confirmation.
+
+**Direct import link** — paste this into your browser's address bar:
 
 ```text
 metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.0%2Fcodex-resets.bar&sha256=4a52068dc8b281ae7d60df3d32c0e071807f6a975fb5e6112464d86ce82ab3de
 ```
 
-Metrix.Bar validates the HTTPS source, shows the dashboard's permissions, and installs it after you confirm. A local install keeps the original dashboard ID, records the download as its provenance, and never joins a registry — so it also never silently receives registry updates.
+GitHub strips custom URL schemes from rendered Markdown, so the link is shown as copyable text instead of a clickable anchor; the same URL works as an ordinary link anywhere that does not filter schemes.
 
-Alternatively, download `codex-resets.bar` and import it by hand through Metrix.Bar's dashboard import.
+Either way Metrix.Bar validates the HTTPS source, shows the dashboard's permissions, and installs it after you confirm. A local install keeps the original dashboard ID, records the download as its provenance, and never joins a registry — so it also never silently receives registry updates.
 
-Either way the dashboard declares `placements="menubar"` and `open-mode="flyout"`, so it shows up in the menu bar and opens as a 380×600 panel. The file targets `.bar` protocol version 0.
+Once installed, the dashboard declares `placements="menubar"` and `open-mode="flyout"`, so it shows up in the menu bar and opens as a 380×600 panel. The file targets `.bar` protocol version 0.
 
 ## Panel overview
 

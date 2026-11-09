@@ -12,19 +12,21 @@ OpenAI 会不定期重置 Codex 的用量额度，有时是常规重置，有时
 
 ## 安装
 
-**[用 Metrix.Bar 一键安装 →](metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.0%2Fcodex-resets.bar&sha256=4a52068dc8b281ae7d60df3d32c0e071807f6a975fb5e6112464d86ce82ab3de)**
+两条一键路径，都不经过注册表：
 
-一键安装，不需要注册表。这条链接是 `.bar` 直连导入：
+**下载后打开** —— 点击 [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.0/codex-resets.bar)，然后打开下载好的文件。Metrix.Bar 已注册 `.bar` 文件类型，打开即进入导入确认。
+
+**直连导入链接** —— 把下面这行粘贴到浏览器地址栏：
 
 ```text
 metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.0%2Fcodex-resets.bar&sha256=4a52068dc8b281ae7d60df3d32c0e071807f6a975fb5e6112464d86ce82ab3de
 ```
 
-Metrix.Bar 会校验 HTTPS 来源、展示看板申请了哪些权限，确认后才安装。本地安装保留原始看板 ID，把下载地址记为来源，不会挂到任何注册表，因此也不会被注册表静默更新。
+GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制的文本给出，而不是可点击的链接；在不做协议过滤的渲染器里，这串地址本身就是普通链接。
 
-也可以直接下载 `codex-resets.bar`，用 Metrix.Bar 的导入功能手动装。
+两种方式都由 Metrix.Bar 校验 HTTPS 来源、展示看板申请的权限，确认后才安装。本地安装保留原始看板 ID，把下载地址记为来源，不会挂到任何注册表，因此也不会被注册表静默更新。
 
-两种方式装好后表现一致：看板声明了 `placements="menubar"` 与 `open-mode="flyout"`，会出现在菜单栏，点击展开为 380×600 的面板。文件遵循 `.bar` 协议版本 0。
+装好后表现一致：看板声明了 `placements="menubar"` 与 `open-mode="flyout"`，会出现在菜单栏，点击展开为 380×600 的面板。文件遵循 `.bar` 协议版本 0。
 
 ## 面板构成
 
