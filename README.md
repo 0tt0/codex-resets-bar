@@ -6,18 +6,19 @@ A menu bar dashboard for [Metrix.Bar](https://metrix.bar) that watches OpenAI Co
 
 ## Install
 
-Open a build, then open the downloaded file — Metrix.Bar imports `.bar` files directly.
+Open the link, then open the downloaded file — Metrix.Bar imports `.bar` files directly.
 
-- **English** — [`codex-resets-en.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets-en.bar)
-- **中文** — [`codex-resets.bar`](https://cdn.jsdmirror.com/gh/0tt0/codex-resets-bar@v0.1.4/codex-resets.bar)
+- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.2.0/codex-resets.bar)
 
 Or paste this into your browser's address bar to import straight from the CDN:
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.1.4%2Fcodex-resets-en.bar&sha256=85a45e9a0aefd0970abde97604c66049f30784815a85c72614cb6876d83b97c1
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.2.0%2Fcodex-resets.bar&sha256=fc7fbea1177732718bb8141b652681f5a00b11f5c3b80e913e24a6921476916c
 ```
 
-GitHub strips custom schemes from rendered Markdown, so that link is copyable text rather than a clickable anchor. For the Chinese build, swap `jsdelivr.net` → `jsdmirror.com` and `codex-resets-en.bar` → `codex-resets.bar`.
+GitHub strips custom schemes from rendered Markdown, so that link is copyable text rather than a clickable anchor.
+
+The dashboard language follows your Metrix.Bar display language — Chinese for `zh*` locales, English otherwise. The language is captured when the dashboard's Worker is created, so reload the dashboard after switching your system or host language.
 
 ## What you get
 
@@ -32,10 +33,10 @@ GitHub strips custom schemes from rendered Markdown, so that link is copyable te
 
 ## Good to know
 
-It refreshes every 2 minutes; a failed request keeps the last good data and offers Retry. Requests go straight to `codex-resets.com`, so that host must be reachable. Alerts are on by default and can be turned off in dashboard settings.
+It refreshes every 2 minutes; a failed request keeps the last good data and offers Retry. Requests go straight to `codex-resets.com`, so that host must be reachable. Alerts are on by default and can be turned off in dashboard settings. The Vue runtime loads at startup from a CDN — JSDMirror first, with jsDelivr as a fallback.
 
 ## Credits & license
 
 Data comes from the public [codex-resets.com](https://codex-resets.com) API. Not affiliated with codex-resets.com or OpenAI.
 
-[Apache-2.0](LICENSE). Vue is loaded from a CDN at startup and stays under MIT. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the monitored service.
+[Apache-2.0](LICENSE). Vue is loaded from a CDN at startup (JSDMirror primary, jsDelivr fallback) and stays under MIT. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the monitored service.

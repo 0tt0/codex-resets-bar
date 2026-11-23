@@ -1,18 +1,19 @@
 <bar protocol-version="0"
      id="codex-resets"
      title="Codex Resets"
-     version="0.1.4"
+     version="0.2.0"
      category="ai"
      refresh="2m"
      placements="menubar"
      open-mode="flyout"
-     description="追踪 OpenAI Codex 额度重置公告，并在新公告时提醒。"
+     description="追踪 OpenAI Codex 额度重置公告并在新公告时提醒 / Track OpenAI Codex quota reset announcements and get notified."
      homepage="https://codex-resets.com"
-     icon="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzRDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+">
+     icon="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+">
 
   <permissions>
     <network origin="https://codex-resets.com" />
     <network origin="https://cdn.jsdmirror.com" />
+    <network origin="https://cdn.jsdelivr.net" />
   </permissions>
 
   <inputs>
@@ -20,20 +21,33 @@
            type="bool"
            default="true"
            label="新重置提醒"
-           help="检测到新的额度重置公告时发送系统通知。" />
+           help="检测到新的额度重置公告时发送系统通知。">
+      <locale lang="en" label="New reset alerts" help="Send a system notification when a new reset announcement appears." />
+    </input>
   </inputs>
 
-  <docs><![CDATA[数据来自 codex-resets.com 的公开 API（监听 @thsottiaux 的推文整理 Codex 额度重置公告）。首次加载只记录最新公告，之后每 2 分钟检查一次，出现新公告时可通过「新重置提醒」开关控制系统通知。面板固定展示最近 3 条公告，完整归档请点击「在官网查看全部」跳转 codex-resets.com。]]></docs>
+  <docs><![CDATA[数据来自 codex-resets.com 的公开 API（监听 @thsottiaux 的推文整理 Codex 额度重置公告）。首次加载只记录最新公告，之后每 2 分钟检查一次，出现新公告时可通过「新重置提醒」开关控制系统通知。面板固定展示最近 3 条公告，完整归档请点击「在官网查看全部」跳转 codex-resets.com。界面语言跟随 Metrix.Bar 显示语言（安装或重载看板时确定）。
+
+English: tracks OpenAI Codex quota reset announcements from the public codex-resets.com API, checks every 2 minutes, and notifies you when a new one appears. The dashboard language follows your Metrix.Bar display language.]]></docs>
 
   <script apis="screenshot clipboard shell"><![CDATA[
 // Codex Resets 仪表盘：追踪 OpenAI Codex 额度重置公告（codex-resets.com）。
 // 常驻 ES Module Worker：Vue h() 构建原生组件树 + reactive 状态，不做任何挂载。
 
-// Vue 运行时不内联：冷启动时从 JSDMirror（jsDelivr 国内镜像）取官方 ESM 构建（vue@3.5.13，约 100 KB）。
-// 中文版配 JSDMirror，大陆访问更稳定；英文版走 jsDelivr。代价：离线时首次加载会失败。
-import * as __VUE__ from "https://cdn.jsdmirror.com/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js";
-
+// Vue 运行时不内联：冷启动时动态 import 官方 ESM 构建（vue@3.5.13，约 100 KB）。
+// 主源 JSDMirror（jsDelivr 国内镜像，大陆访问更稳定）；加载失败时回退 jsDelivr 官方源，
+// 任一 CDN 单边故障仍可用。代价：两个源都不可达（如完全离线）时首次加载会失败。
+let __VUE__;
+try {
+  __VUE__ = await import("https://cdn.jsdmirror.com/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js");
+} catch (e) {
+  __VUE__ = await import("https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js");
+}
 const { h, reactive } = __VUE__;
+
+// 语言跟随宿主（Metrix.Bar）显示语言：Worker 创建时捕获的 navigator.language 快照（BCP 47）。
+// zh* → 中文，其余 → 英文；无 languagechange 事件，切换系统/宿主语言后需重载看板才生效。
+const LANG = String(navigator.language || "en").toLowerCase().startsWith("zh") ? "zh" : "en";
 
 
 // ---------------------------------------------------------------------------
@@ -83,7 +97,114 @@ const C = {
 const W = 380;
 const H = 600;
 const API = "https://codex-resets.com/api/v1";
-const SITE = "https://codex-resets.com/zh-CN";
+// 站点链接按语言区分：中文走 /zh-CN，英文走主站
+const SITE = LANG === "zh" ? "https://codex-resets.com/zh-CN" : "https://codex-resets.com";
+
+// ---------------------------------------------------------------------------
+// 文案字典（中英双语，按 LANG 取词）
+// ---------------------------------------------------------------------------
+
+// 键名用简体中文语义命名；带参数的条目是函数。t(key, ...args) 取词。
+const I18N = {
+  zh: {
+    "副标题": "我们帮你盯着 Codex 重置消息",
+    "刷新按钮": "立即刷新",
+    "分享按钮": "复制截图",
+    "未加载": "尚未获取数据",
+    "更新时间": ts => "数据更新于 " + ts,
+    "请求失败后缀": " · 上次请求失败",
+    "本地时区": "本地",
+    "UTC时区": "UTC",
+    "最新重置标题": "最近一次额度重置",
+    "暂无数据": "暂无数据",
+    "等待数据": "等待 codex-resets.com 返回公告",
+    "徽章备用": "备用额度",
+    "徽章常规": "常规重置",
+    "待定重置": "待定重置",
+    "值守中": "值守中",
+    "值守标题": "值守中的重置",
+    "值守说明": "AI 预测，非官方承诺",
+    "统计次数": "重置次数",
+    "统计次数值": n => n + " 次",
+    "统计间隔": "平均间隔",
+    "统计间隔值": v => fmtDays(v) + " 天",
+    "统计近期": "近 30 天",
+    "统计近期值": n => n + " 次",
+    "日历标题": "重置日历（近 4 个月）",
+    "图例常规": "橙 = 常规",
+    "图例备用": "蜜桃 = 备用",
+    "日历格提示": (key, type) => key + (type ? " · " + (type === "banked" ? "备用" : "常规") + "重置" : " 无重置"),
+    "公告标题": "公告",
+    "公告计数": (shown, total) => "最近 " + shown + " / 共 " + total + " 条",
+    "查看全部": n => "查看全部 " + n + " 条 →",
+    "公告点击提示": " · 点击在 X 上查看",
+    "重试": "重试",
+    "页脚": "数据来自 codex-resets.com（监听 @thsottiaux）· 与 OpenAI 无关联",
+    "加载失败": "加载失败",
+    "加载中": "正在从 codex-resets.com 获取数据…",
+    "网络错误": status => "codex-resets.com 请求失败：HTTP " + status,
+    "JSON错误": "响应不是有效的 JSON。",
+    "格式错误": "响应格式无效。",
+    "通知标题": "Codex 额度已重置",
+    "通知兜底": "查看公告原文",
+    "截图不支持": "当前版本不支持截图，请升级 Metrix.Bar",
+    "截图成功": "截图已复制到剪贴板",
+    "截图失败": msg => "截图失败：" + msg,
+    "托盘最近重置": "最近重置 ",
+    "菜单打开官网": "打开 codex-resets.com",
+  },
+  en: {
+    "副标题": "Watching Codex resets for you",
+    "刷新按钮": "Refresh now",
+    "分享按钮": "Copy screenshot",
+    "未加载": "Not loaded yet",
+    "更新时间": ts => "Updated " + ts,
+    "请求失败后缀": " · last request failed",
+    "本地时区": "Local",
+    "UTC时区": "UTC",
+    "最新重置标题": "Latest quota reset",
+    "暂无数据": "No data yet",
+    "等待数据": "Waiting for codex-resets.com",
+    "徽章备用": "Banked",
+    "徽章常规": "Regular",
+    "待定重置": "Scheduled",
+    "值守中": "Watching",
+    "值守标题": "Resets being watched",
+    "值守说明": "AI prediction, not an official promise",
+    "统计次数": "Resets",
+    "统计次数值": n => String(n),
+    "统计间隔": "Avg. interval",
+    "统计间隔值": v => fmtDays(v) + " d",
+    "统计近期": "Last 30 days",
+    "统计近期值": n => String(n),
+    "日历标题": "Reset calendar (4 months)",
+    "图例常规": "Orange = regular",
+    "图例备用": "Peach = banked",
+    "日历格提示": (key, type) => key + (type ? " · " + (type === "banked" ? "banked" : "regular") + " reset" : " · no reset"),
+    "公告标题": "Announcements",
+    "公告计数": (shown, total) => "latest " + shown + " of " + total,
+    "查看全部": n => "View all " + n + " →",
+    "公告点击提示": " · click to open on X",
+    "重试": "Retry",
+    "页脚": "Data from codex-resets.com (watching @thsottiaux) · not affiliated with OpenAI",
+    "加载失败": "Failed to load",
+    "加载中": "Fetching from codex-resets.com…",
+    "网络错误": status => "codex-resets.com request failed: HTTP " + status,
+    "JSON错误": "Response is not valid JSON.",
+    "格式错误": "Unexpected response shape.",
+    "通知标题": "Codex quota reset",
+    "通知兜底": "Open the announcement",
+    "截图不支持": "Screenshot needs a newer Metrix.Bar",
+    "截图成功": "Screenshot copied to clipboard",
+    "截图失败": msg => "Screenshot failed: " + msg,
+    "托盘最近重置": "last reset ",
+    "菜单打开官网": "Open codex-resets.com",
+  },
+};
+const t = (key, ...args) => {
+  const v = (I18N[LANG] || {})[key];
+  return v === undefined ? key : (typeof v === "function" ? v(...args) : v);
+};
 
 // ---------------------------------------------------------------------------
 // 图标（单色 currentColor）
@@ -91,7 +212,7 @@ const SITE = "https://codex-resets.com/zh-CN";
 
 const svgWrap = paths => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
 // Codex 官方图标（单色 currentColor，配合 iconTemplate 自动适配深浅色菜单栏）
-const CODEX_ICON = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzRDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+";
+const CODEX_ICON = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+";
 
 const ICON = {
   refresh: svgWrap(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/>`),
@@ -106,23 +227,37 @@ const Icon = (svg, size, color, extra) =>
 // 时间格式化
 // ---------------------------------------------------------------------------
 
-// 相对时间：中文，兼容未来时间（值守预测）→「x 天后」
+// 相对时间：中英两套实现，兼容未来时间（值守预测）→ 中文「x 天后」/ 英文「in 2d」
 function relTime(iso) {
   const t = Date.parse(iso || "");
   if (!Number.isFinite(t)) return "—";
   let ms = Date.now() - t;
-  const suffix = ms < 0 ? "后" : "前";
+  const future = ms < 0;
   ms = Math.abs(ms);
   const min = Math.floor(ms / 60e3);
-  if (min < 1) return "刚刚";
-  if (min < 60) return min + " 分钟" + suffix;
+  if (LANG === "zh") {
+    const suffix = future ? "后" : "前";
+    if (min < 1) return "刚刚";
+    if (min < 60) return min + " 分钟" + suffix;
+    const hr = Math.floor(min / 60);
+    if (hr < 24) return hr + " 小时" + suffix;
+    const day = Math.floor(hr / 24);
+    if (day < 30) return day + " 天" + suffix;
+    const mon = Math.floor(day / 30);
+    if (mon < 12) return mon + " 个月" + suffix;
+    return Math.floor(mon / 12) + " 年" + suffix;
+  }
+  if (min < 1) return "just now";
   const hr = Math.floor(min / 60);
-  if (hr < 24) return hr + " 小时" + suffix;
   const day = Math.floor(hr / 24);
-  if (day < 30) return day + " 天" + suffix;
   const mon = Math.floor(day / 30);
-  if (mon < 12) return mon + " 个月" + suffix;
-  return Math.floor(mon / 12) + " 年" + suffix;
+  let n, unit;
+  if (min < 60) { n = min; unit = "m"; }
+  else if (hr < 24) { n = hr; unit = "h"; }
+  else if (day < 30) { n = day; unit = "d"; }
+  else if (mon < 12) { n = mon; unit = "mo"; }
+  else { n = Math.floor(mon / 12); unit = "y"; }
+  return future ? "in " + n + unit : n + unit + " ago";
 }
 
 // 绝对时间：本地默认时区 / UTC（Worker 无 Intl，手工格式化）
@@ -140,6 +275,11 @@ function absTime(iso) {
     : p(d.getHours()) + ":" + p(d.getMinutes());
   return date + " " + time + (utc ? " UTC" : "");
 }
+
+// 日历月份标签：中文「N月」，英文缩写（Jan…）；对应标签宽度随语言微调
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const monthLabel = m => (LANG === "zh" ? String(m + 1) + "月" : MONTHS[m]);
+const monthLabelWidth = LANG === "zh" ? 26 : 30;
 
 const pad2 = n => String(n).padStart(2, "0");
 const hhmm = t => { const d = new Date(t); return pad2(d.getHours()) + ":" + pad2(d.getMinutes()); };
@@ -202,10 +342,10 @@ function readStatus(body) {
 
 async function getJSON(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) throw new Error("codex-resets.com 请求失败：HTTP " + res.status);
+  if (!res.ok) throw new Error(t("网络错误", res.status));
   let body;
-  try { body = await res.json(); } catch (e) { throw new Error("响应不是有效的 JSON。"); }
-  if (!body || typeof body !== "object") throw new Error("响应格式无效。");
+  try { body = await res.json(); } catch (e) { throw new Error(t("JSON错误")); }
+  if (!body || typeof body !== "object") throw new Error(t("格式错误"));
   return body;
 }
 
@@ -231,8 +371,8 @@ async function load(env) {
       const on = !(env && env.inputs && env.inputs.notifyEnabled === false);
       if (on) {
         const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "…" : latest.text;
-        $metrix.notify("Codex 额度已重置", summary || "查看公告原文");
-        $metrix.toast("Codex 额度已重置");
+        $metrix.notify(t("通知标题"), summary || t("通知兜底"));
+        $metrix.toast(t("通知标题"));
       }
     }
     state.lastSeenResetId = latest.id;
@@ -264,7 +404,7 @@ let sharing = false;
 function shareShot() {
   if (sharing) return;
   if (typeof ($metrix.panel && $metrix.panel.screenshot) !== "function") {
-    $metrix.notify("Codex Resets", "当前版本不支持截图，请升级 Metrix.Bar");
+    $metrix.notify("Codex Resets", t("截图不支持"));
     return;
   }
   sharing = true;
@@ -275,9 +415,9 @@ function shareShot() {
       try {
         const blob = await $metrix.panel.screenshot({ scale: 2, height: SHOT_HEIGHT });
         await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
-        $metrix.notify("Codex Resets", "截图已复制到剪贴板");
+        $metrix.notify("Codex Resets", t("截图成功"));
       } catch (e) {
-        $metrix.notify("Codex Resets", "截图失败：" + String((e && e.message) || e));
+        $metrix.notify("Codex Resets", t("截图失败", String((e && e.message) || e)));
       } finally {
         sharing = false;
         state.sharing = false;
@@ -310,7 +450,7 @@ function IconButton(name, label, onClick, busy) {
 function TypeBadge(type) {
   const banked = type === "banked";
   return el("Badge", {
-    text: banked ? "备用额度" : "常规重置",
+    text: banked ? t("徽章备用") : t("徽章常规"),
     background: banked ? C.PEACH : C.ACCENT,
     textColor: banked ? C.INK : C.CARD,
     fontSize: 10, fontWeight: 600, padding: [2, 6], radius: 6, shrink: 0,
@@ -318,8 +458,8 @@ function TypeBadge(type) {
 }
 
 function updateLine() {
-  if (!state.lastLoadedAt) return "尚未获取数据";
-  return "数据更新于 " + hhmm(state.lastLoadedAt) + (state.error ? " · 上次请求失败" : "");
+  if (!state.lastLoadedAt) return t("未加载");
+  return t("更新时间", hhmm(state.lastLoadedAt)) + (state.error ? t("请求失败后缀") : "");
 }
 
 // 1. 头部：标题 + 副标题 + 数据更新时间
@@ -330,9 +470,9 @@ function Header() {
       el("Spacer"),
       // 更新时间放在右侧，紧跟刷新按钮
       TX(updateLine(), { fontSize: 10, textColor: C.MUTED, singleLine: true }),
-      IconButton("refresh", "立即刷新", launchRefresh, state.loading),
-      IconButton("share", "复制截图", shareShot, state.sharing)),
-    TX("我们帮你盯着 Codex 重置消息", { fontSize: 11, textColor: C.MUTED, singleLine: true }));
+      IconButton("refresh", t("刷新按钮"), launchRefresh, state.loading),
+      IconButton("share", t("分享按钮"), shareShot, state.sharing)),
+    TX(t("副标题"), { fontSize: 11, textColor: C.MUTED, singleLine: true }));
 }
 
 // 2. Hero 卡：大号相对时间 + 绝对时间（本地/UTC 切换）+ 类型徽章
@@ -349,14 +489,14 @@ function TZSwitch() {
   return el("Row", {
     gap: 0, padding: 2, radius: 8, shrink: 0,
     background: C.TILE, border: [1, C.LINE], alignItems: "center",
-  }, seg("local", "本地"), seg("utc", "UTC"));
+  }, seg("local", t("本地时区")), seg("utc", t("UTC时区")));
 }
 
 function Hero() {
   const latest = state.status && state.status.latest;
   return card([
     el("Row", { gap: 6, alignItems: "center", fillWidth: true },
-      TX("最近一次额度重置", { fontSize: 11, textColor: C.MUTED, singleLine: true }),
+      TX(t("最新重置标题"), { fontSize: 11, textColor: C.MUTED, singleLine: true }),
       el("Spacer"),
       TZSwitch()),
     latest && latest.at
@@ -366,8 +506,8 @@ function Hero() {
             TX(absTime(latest.at), { fontSize: 11, textColor: C.MUTED }),
             TypeBadge(latest.type)))
       : el("Column", { gap: 6, padding: [10, 0] },
-          TX("暂无数据", { fontSize: 26, fontWeight: 700 }),
-          TX("等待 codex-resets.com 返回公告", { fontSize: 11, textColor: C.MUTED })),
+          TX(t("暂无数据"), { fontSize: 26, fontWeight: 700 }),
+          TX(t("等待数据"), { fontSize: 11, textColor: C.MUTED })),
   ]);
 }
 
@@ -384,14 +524,14 @@ function Watch() {
         r.at ? TX(absTime(r.at), { fontSize: 10, textColor: C.MUTED, singleLine: true }) : null),
       r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null);
   };
-  const scheduled = slot("待定重置", s.scheduled);
-  const watch = slot("值守中", s.watch);
+  const scheduled = slot(t("待定重置"), s.scheduled);
+  const watch = slot(t("值守中"), s.watch);
   if (!scheduled && !watch) return null;   // 无值守时不占位
   return card([
-    TX("值守中的重置", { fontSize: 12, fontWeight: 600 }),
+    TX(t("值守标题"), { fontSize: 12, fontWeight: 600 }),
     el("Column", { gap: 10, fillWidth: true, padding: [6, 0, 0, 0] },
       scheduled, watch,
-      TX("AI 预测，非官方承诺", { fontSize: 10, textColor: C.MUTED })),
+      TX(t("值守说明"), { fontSize: 10, textColor: C.MUTED })),
   ]);
 }
 
@@ -416,9 +556,9 @@ function Stats() {
     TX(label, { fontSize: 10, singleLine: true }),
     TX(value, { fontSize: 16, fontWeight: 700, singleLine: true })));
   return el("Grid", { columns: 3, gap: 8, fillWidth: true, shrink: 0 },
-    tile(C.SUN, "重置次数", s && s.total != null ? s.total + " 次" : "—"),
-    tile(C.ROSE, "平均间隔", s && s.avgIntervalDays != null ? fmtDays(s.avgIntervalDays) + " 天" : "—"),
-    tile(C.SKY, "近 30 天", recentCount(30) + " 次"));
+    tile(C.SUN, t("统计次数"), s && s.total != null ? t("统计次数值", s.total) : "—"),
+    tile(C.ROSE, t("统计间隔"), s && s.avgIntervalDays != null ? t("统计间隔值", s.avgIntervalDays) : "—"),
+    tile(C.SKY, t("统计近期"), t("统计近期值", recentCount(30))));
 }
 
 // 5. 日历热力图：近 4 个月按月分组，橙=常规、蜜桃=备用
@@ -447,22 +587,22 @@ function Heatmap() {
         background: type ? (type === "banked" ? C.PEACH : C.ACCENT) : C.TILE,
         opacity: key > todayKey ? 0.35 : 1,
         ...(key === todayKey ? { border: [1, C.TODAY] } : null),
-        tooltip: key + (type ? " · " + (type === "banked" ? "备用" : "常规") + "重置" : " 无重置"),
+        tooltip: t("日历格提示", key, type),
       }));
     }
     rows.push(el("Row", { gap: 8, alignItems: "center", fillWidth: true },
-      TX((first.getMonth() + 1) + "月", { fontSize: 10, textColor: C.MUTED, width: 26, shrink: 0 }),
+      TX(monthLabel(first.getMonth()), { fontSize: 10, textColor: C.MUTED, width: monthLabelWidth, shrink: 0 }),
       el("Row", { gap: 2, wrap: false, fillWidth: true, grow: 1, basis: 0 }, cells)));
   }
   const swatch = (color, label) => el("Row", { gap: 4, alignItems: "center" },
     el("Box", { width: 8, height: 8, radius: 2, background: color, shrink: 0 }),
     TX(label, { fontSize: 10, textColor: C.MUTED }));
   return card([
-    TX("重置日历（近 4 个月）", { fontSize: 12, fontWeight: 600 }),
+    TX(t("日历标题"), { fontSize: 12, fontWeight: 600 }),
     el("Column", { gap: 4, fillWidth: true, padding: [8, 0, 0, 0] }, rows),
     el("Row", { gap: 12, padding: [8, 0, 0, 0] },
-      swatch(C.ACCENT, "橙 = 常规"),
-      swatch(C.PEACH, "蜜桃 = 备用")),
+      swatch(C.ACCENT, t("图例常规")),
+      swatch(C.PEACH, t("图例备用"))),
   ]);
 }
 
@@ -472,7 +612,7 @@ function FeedItem(r) {
   const open = r.url ? { onClick: () => $metrix.openURL(r.url), cursor: "pointer" } : null;
   return el("Box", {
     background: C.CARD, border: [1, C.HAIR], radius: 10, padding: [10, 12],
-    fillWidth: true, shrink: 0, tooltip: absTime(r.at) + (r.url ? " · 点击在 X 上查看" : ""),
+    fillWidth: true, shrink: 0, tooltip: absTime(r.at) + (r.url ? t("公告点击提示") : ""),
     hover: open ? { background: C.HOVER } : null,
     ...(open || null),
   }, el("Column", { gap: 4, fillWidth: true },
@@ -489,12 +629,12 @@ function Feed() {
   const shown = list.slice(0, FEED_COUNT);
   return el("Column", { gap: 8, fillWidth: true, shrink: 0 },
     el("Row", { gap: 6, alignItems: "center", fillWidth: true },
-      TX("公告", { fontSize: 12, fontWeight: 600 }),
-      TX(list.length ? "最近 " + shown.length + " / 共 " + list.length + " 条" : "", { fontSize: 10, textColor: C.MUTED })),
+      TX(t("公告标题"), { fontSize: 12, fontWeight: 600 }),
+      TX(list.length ? t("公告计数", shown.length, list.length) : "", { fontSize: 10, textColor: C.MUTED })),
     shown.map(r => FeedItem(r)),
     list.length > FEED_COUNT
       ? el("Row", { center: true, fillWidth: true },
-          el("Link", { text: "查看全部 " + list.length + " 条 →", url: SITE, href: SITE,
+          el("Link", { text: t("查看全部", list.length), url: SITE, href: SITE,
             fontSize: 10, textColor: C.MUTED }))
       : null);
 }
@@ -507,27 +647,27 @@ function ErrorBanner() {
   },
     Icon(ICON.alert, 13, C.INK),
     TX(state.error, { fontSize: 11, grow: 1, shrink: 1, lineHeight: 1.3 }),
-    el("Button", { onClick: launchRefresh }, "重试"));
+    el("Button", { onClick: launchRefresh }, t("重试")));
 }
 
 // 7. 底部来源说明
 function Footer() {
-  return TX("数据来自 codex-resets.com（监听 @thsottiaux）· 与 OpenAI 无关联",
+  return TX(t("页脚"),
     { fontSize: 10, textColor: C.MUTED, textAlign: "center", lineHeight: 1.4, padding: [2, 0, 6, 0] });
 }
 
 function Problem() {
   return el("Column", { gap: 10, center: true, padding: [36, 20], fillWidth: true, grow: 1 },
     Icon(ICON.alert, 22, C.ACCENT),
-    TX("加载失败", { fontSize: 14, fontWeight: 600, textAlign: "center" }),
+    TX(t("加载失败"), { fontSize: 14, fontWeight: 600, textAlign: "center" }),
     TX(state.error, { fontSize: 11, textColor: C.MUTED, textAlign: "center", lineHeight: 1.35 }),
-    el("Button", { onClick: launchRefresh }, "重试"));
+    el("Button", { onClick: launchRefresh }, t("重试")));
 }
 
 function Loading() {
   return el("Column", { gap: 12, center: true, padding: [40, 20], fillWidth: true },
     el("Spinner"),
-    TX("正在从 codex-resets.com 获取数据…", { fontSize: 12, textColor: C.MUTED }));
+    TX(t("加载中"), { fontSize: 12, textColor: C.MUTED }));
 }
 
 function Body() {
@@ -555,7 +695,7 @@ function trayTree() {
   if (days == null) days = daysSince(s && s.lastResetAt || latest && latest.at || "");
   const title = days != null ? fmtDays(days) + "d" : state.error ? "!" : "—";
   const tip = latest && latest.text
-    ? "Codex Resets · 最近重置 " + relTime(latest.at) + " · " + latest.text.slice(0, 60)
+    ? "Codex Resets · " + t("托盘最近重置") + relTime(latest.at) + " · " + latest.text.slice(0, 60)
     : "Codex Resets";
   return {
     icon: CODEX_ICON,
@@ -563,8 +703,8 @@ function trayTree() {
     title,
     tooltip: tip,
     menu: [
-      { label: "立即刷新", onClick: launchRefresh },
-      { label: "打开 codex-resets.com", onClick: openSite },
+      { label: t("刷新按钮"), onClick: launchRefresh },
+      { label: t("菜单打开官网"), onClick: openSite },
     ],
   };
 }
