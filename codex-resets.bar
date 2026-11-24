@@ -1,19 +1,17 @@
 <bar protocol-version="0"
      id="codex-resets"
      title="Codex Resets"
-     version="0.2.0"
+     version="0.3.0"
      category="ai"
      refresh="2m"
      placements="menubar"
      open-mode="flyout"
-     description="追踪 OpenAI Codex 额度重置公告并在新公告时提醒 / Track OpenAI Codex quota reset announcements and get notified."
+     description="追踪 Codex 额度重置公告，新公告即提醒 / Track Codex quota resets and get notified."
      homepage="https://codex-resets.com"
      icon="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+">
 
   <permissions>
     <network origin="https://codex-resets.com" />
-    <network origin="https://cdn.jsdmirror.com" />
-    <network origin="https://cdn.jsdelivr.net" />
   </permissions>
 
   <inputs>
@@ -26,292 +24,181 @@
     </input>
   </inputs>
 
-  <docs><![CDATA[数据来自 codex-resets.com 的公开 API（监听 @thsottiaux 的推文整理 Codex 额度重置公告）。首次加载只记录最新公告，之后每 2 分钟检查一次，出现新公告时可通过「新重置提醒」开关控制系统通知。面板固定展示最近 3 条公告，完整归档请点击「在官网查看全部」跳转 codex-resets.com。界面语言跟随 Metrix.Bar 显示语言（安装或重载看板时确定）。
+  <docs><![CDATA[数据来自 codex-resets.com 公开 API，每 2 分钟检查一次，出现新公告时发系统通知（可在设置关闭）。面板展示最近 3 条公告与近 4 个月重置日历，完整归档见官网。界面语言跟随 Metrix.Bar 显示语言。
 
-English: tracks OpenAI Codex quota reset announcements from the public codex-resets.com API, checks every 2 minutes, and notifies you when a new one appears. The dashboard language follows your Metrix.Bar display language.]]></docs>
+English: data from the public codex-resets.com API, checked every 2 minutes, with optional notifications on new announcements. The panel shows the latest 3 announcements and a 4-month calendar; see codex-resets.com for the full archive. The language follows your Metrix.Bar display language.]]></docs>
 
   <script apis="screenshot clipboard shell"><![CDATA[
-// Codex Resets 仪表盘：追踪 OpenAI Codex 额度重置公告（codex-resets.com）。
-// 常驻 ES Module Worker：Vue h() 构建原生组件树 + reactive 状态，不做任何挂载。
-
-// Vue 运行时不内联：冷启动时动态 import 官方 ESM 构建（vue@3.5.13，约 100 KB）。
-// 主源 JSDMirror（jsDelivr 国内镜像，大陆访问更稳定）；加载失败时回退 jsDelivr 官方源，
-// 任一 CDN 单边故障仍可用。代价：两个源都不可达（如完全离线）时首次加载会失败。
-let __VUE__;
-try {
-  __VUE__ = await import("https://cdn.jsdmirror.com/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js");
-} catch (e) {
-  __VUE__ = await import("https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.runtime.esm-browser.prod.js");
-}
-const { h, reactive } = __VUE__;
-
-// 语言跟随宿主（Metrix.Bar）显示语言：Worker 创建时捕获的 navigator.language 快照（BCP 47）。
-// zh* → 中文，其余 → 英文；无 languagechange 事件，切换系统/宿主语言后需重载看板才生效。
-const LANG = String(navigator.language || "en").toLowerCase().startsWith("zh") ? "zh" : "en";
-
-
-// ---------------------------------------------------------------------------
-// 基础辅助：h() 封装（过滤空子节点，避免生成占位节点）
-// ---------------------------------------------------------------------------
-
-// 子节点支持变参传入；过滤空值，避免 Vue 生成占位节点。
-const flat = c => (Array.isArray(c) ? c.flat(8).filter(x => x !== null && x !== undefined && x !== false) : c);
-const el = (type, props, ...children) => h(type, props || {}, flat(children));
-
-// h() 产出的是 VNode 对象；宿主要求纯 JSON 组件树，这里递归归一化：
-// 取 type / props / children，文本子节点折叠为字符串。
-function toJSON(node) {
-  if (node == null || node === false) return null;
-  if (typeof node === "string" || typeof node === "number") return String(node);
-  if (Array.isArray(node)) return node.map(toJSON).filter(x => x != null);
-  if (typeof node !== "object") return null;
-  if (!node.__v_isVNode) return null;          // Fragment/Comment 等非元素节点丢弃
-  const out = { type: node.type, props: node.props || {} };
-  const kids = toJSON(node.children);
-  if (kids != null && !(Array.isArray(kids) && kids.length === 0)) out.children = kids;
-  return out;
-}
-const TX = (text, props) => el("Text", { text: String(text), ...props });
-
-// ---------------------------------------------------------------------------
-// 风格常量
-// ---------------------------------------------------------------------------
-
-const C = {
-  PAPER: "#fff4dd",  // 整体背景
-  CARD: "#fffdf7",    // 卡片底色
-  INK: "#26201a",     // 主文字色
-  ACCENT: "#ff5c2b",  // 强调橙（常规重置）
-  SUN: "#ffd84d",     // 太阳黄
-  ROSE: "#ffb9cc",    // 玫瑰粉
-  SKY: "#a5dcff",     // 天空蓝
-  PEACH: "#ffb07a",   // 蜜桃（备用额度）
-  MINT: "#b9e6a6",    // 薄荷绿
-  MUTED: "#8a7a63",   // 低饱和辅助文字
-  TILE: "#f1e6c8",    // 日历无重置日底色（低饱和）
-  LINE: "#e8d9b0",    // 次级描边
-  HOVER: "#f3e9cf",   // 悬停底色
-  TODAY: "#b9a883",   // 日历"今天"标记描边（低对比，不抢眼）
-  HAIR: "#f0e4c6",    // 极浅描边（白卡在奶油底上勾个边）
-};
-const W = 380;
-const H = 600;
-const API = "https://codex-resets.com/api/v1";
-// 站点链接按语言区分：中文走 /zh-CN，英文走主站
-const SITE = LANG === "zh" ? "https://codex-resets.com/zh-CN" : "https://codex-resets.com";
-
-// ---------------------------------------------------------------------------
-// 文案字典（中英双语，按 LANG 取词）
-// ---------------------------------------------------------------------------
-
-// 键名用简体中文语义命名；带参数的条目是函数。t(key, ...args) 取词。
-const I18N = {
-  zh: {
-    "副标题": "我们帮你盯着 Codex 重置消息",
-    "刷新按钮": "立即刷新",
-    "分享按钮": "复制截图",
-    "未加载": "尚未获取数据",
-    "更新时间": ts => "数据更新于 " + ts,
-    "请求失败后缀": " · 上次请求失败",
-    "本地时区": "本地",
-    "UTC时区": "UTC",
-    "最新重置标题": "最近一次额度重置",
-    "暂无数据": "暂无数据",
-    "等待数据": "等待 codex-resets.com 返回公告",
-    "徽章备用": "备用额度",
-    "徽章常规": "常规重置",
-    "待定重置": "待定重置",
-    "值守中": "值守中",
-    "值守标题": "值守中的重置",
-    "值守说明": "AI 预测，非官方承诺",
-    "统计次数": "重置次数",
-    "统计次数值": n => n + " 次",
-    "统计间隔": "平均间隔",
-    "统计间隔值": v => fmtDays(v) + " 天",
-    "统计近期": "近 30 天",
-    "统计近期值": n => n + " 次",
-    "日历标题": "重置日历（近 4 个月）",
-    "图例常规": "橙 = 常规",
-    "图例备用": "蜜桃 = 备用",
-    "日历格提示": (key, type) => key + (type ? " · " + (type === "banked" ? "备用" : "常规") + "重置" : " 无重置"),
-    "公告标题": "公告",
-    "公告计数": (shown, total) => "最近 " + shown + " / 共 " + total + " 条",
-    "查看全部": n => "查看全部 " + n + " 条 →",
-    "公告点击提示": " · 点击在 X 上查看",
-    "重试": "重试",
-    "页脚": "数据来自 codex-resets.com（监听 @thsottiaux）· 与 OpenAI 无关联",
-    "加载失败": "加载失败",
-    "加载中": "正在从 codex-resets.com 获取数据…",
-    "网络错误": status => "codex-resets.com 请求失败：HTTP " + status,
-    "JSON错误": "响应不是有效的 JSON。",
-    "格式错误": "响应格式无效。",
-    "通知标题": "Codex 额度已重置",
-    "通知兜底": "查看公告原文",
-    "截图不支持": "当前版本不支持截图，请升级 Metrix.Bar",
-    "截图成功": "截图已复制到剪贴板",
-    "截图失败": msg => "截图失败：" + msg,
-    "托盘最近重置": "最近重置 ",
-    "菜单打开官网": "打开 codex-resets.com",
-  },
-  en: {
-    "副标题": "Watching Codex resets for you",
-    "刷新按钮": "Refresh now",
-    "分享按钮": "Copy screenshot",
-    "未加载": "Not loaded yet",
-    "更新时间": ts => "Updated " + ts,
-    "请求失败后缀": " · last request failed",
-    "本地时区": "Local",
-    "UTC时区": "UTC",
-    "最新重置标题": "Latest quota reset",
-    "暂无数据": "No data yet",
-    "等待数据": "Waiting for codex-resets.com",
-    "徽章备用": "Banked",
-    "徽章常规": "Regular",
-    "待定重置": "Scheduled",
-    "值守中": "Watching",
-    "值守标题": "Resets being watched",
-    "值守说明": "AI prediction, not an official promise",
-    "统计次数": "Resets",
-    "统计次数值": n => String(n),
-    "统计间隔": "Avg. interval",
-    "统计间隔值": v => fmtDays(v) + " d",
-    "统计近期": "Last 30 days",
-    "统计近期值": n => String(n),
-    "日历标题": "Reset calendar (4 months)",
-    "图例常规": "Orange = regular",
-    "图例备用": "Peach = banked",
-    "日历格提示": (key, type) => key + (type ? " · " + (type === "banked" ? "banked" : "regular") + " reset" : " · no reset"),
-    "公告标题": "Announcements",
-    "公告计数": (shown, total) => "latest " + shown + " of " + total,
-    "查看全部": n => "View all " + n + " →",
-    "公告点击提示": " · click to open on X",
-    "重试": "Retry",
-    "页脚": "Data from codex-resets.com (watching @thsottiaux) · not affiliated with OpenAI",
-    "加载失败": "Failed to load",
-    "加载中": "Fetching from codex-resets.com…",
-    "网络错误": status => "codex-resets.com request failed: HTTP " + status,
-    "JSON错误": "Response is not valid JSON.",
-    "格式错误": "Unexpected response shape.",
-    "通知标题": "Codex quota reset",
-    "通知兜底": "Open the announcement",
-    "截图不支持": "Screenshot needs a newer Metrix.Bar",
-    "截图成功": "Screenshot copied to clipboard",
-    "截图失败": msg => "Screenshot failed: " + msg,
-    "托盘最近重置": "last reset ",
-    "菜单打开官网": "Open codex-resets.com",
-  },
-};
-const t = (key, ...args) => {
-  const v = (I18N[LANG] || {})[key];
-  return v === undefined ? key : (typeof v === "function" ? v(...args) : v);
-};
-
-// ---------------------------------------------------------------------------
-// 图标（单色 currentColor）
-// ---------------------------------------------------------------------------
-
-const svgWrap = paths => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
-// Codex 官方图标（单色 currentColor，配合 iconTemplate 自动适配深浅色菜单栏）
-const CODEX_ICON = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+";
-
-const ICON = {
-  refresh: svgWrap(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/>`),
-  alert: svgWrap(`<circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/>`),
-  // 分享：iOS 风格方框 + 上箭头
-  share: svgWrap(`<path d="M12 15V3"/><path d="m8 7 4-4 4 4"/><path d="M4 13v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/>`),
-};
-const Icon = (svg, size, color, extra) =>
-  el("Icon", { svg, width: size, height: size, fontSize: size, textColor: color || C.INK, shrink: 0, ...extra });
-
-// ---------------------------------------------------------------------------
-// 时间格式化
-// ---------------------------------------------------------------------------
-
-// 相对时间：中英两套实现，兼容未来时间（值守预测）→ 中文「x 天后」/ 英文「in 2d」
+// src/time.js
 function relTime(iso) {
-  const t = Date.parse(iso || "");
-  if (!Number.isFinite(t)) return "—";
-  let ms = Date.now() - t;
+  const t2 = Date.parse(iso || "");
+  if (!Number.isFinite(t2)) return "\u2014";
+  let ms = Date.now() - t2;
   const future = ms < 0;
   ms = Math.abs(ms);
-  const min = Math.floor(ms / 60e3);
+  const min = Math.floor(ms / 6e4);
   if (LANG === "zh") {
-    const suffix = future ? "后" : "前";
-    if (min < 1) return "刚刚";
-    if (min < 60) return min + " 分钟" + suffix;
-    const hr = Math.floor(min / 60);
-    if (hr < 24) return hr + " 小时" + suffix;
-    const day = Math.floor(hr / 24);
-    if (day < 30) return day + " 天" + suffix;
-    const mon = Math.floor(day / 30);
-    if (mon < 12) return mon + " 个月" + suffix;
-    return Math.floor(mon / 12) + " 年" + suffix;
+    const suffix = future ? "\u540E" : "\u524D";
+    if (min < 1) return "\u521A\u521A";
+    if (min < 60) return min + " \u5206\u949F" + suffix;
+    const hr2 = Math.floor(min / 60);
+    if (hr2 < 24) return hr2 + " \u5C0F\u65F6" + suffix;
+    const day2 = Math.floor(hr2 / 24);
+    if (day2 < 30) return day2 + " \u5929" + suffix;
+    const mon2 = Math.floor(day2 / 30);
+    if (mon2 < 12) return mon2 + " \u4E2A\u6708" + suffix;
+    return Math.floor(mon2 / 12) + " \u5E74" + suffix;
   }
   if (min < 1) return "just now";
   const hr = Math.floor(min / 60);
   const day = Math.floor(hr / 24);
   const mon = Math.floor(day / 30);
   let n, unit;
-  if (min < 60) { n = min; unit = "m"; }
-  else if (hr < 24) { n = hr; unit = "h"; }
-  else if (day < 30) { n = day; unit = "d"; }
-  else if (mon < 12) { n = mon; unit = "mo"; }
-  else { n = Math.floor(mon / 12); unit = "y"; }
+  if (min < 60) {
+    n = min;
+    unit = "m";
+  } else if (hr < 24) {
+    n = hr;
+    unit = "h";
+  } else if (day < 30) {
+    n = day;
+    unit = "d";
+  } else if (mon < 12) {
+    n = mon;
+    unit = "mo";
+  } else {
+    n = Math.floor(mon / 12);
+    unit = "y";
+  }
   return future ? "in " + n + unit : n + unit + " ago";
 }
-
-// 绝对时间：本地默认时区 / UTC（Worker 无 Intl，手工格式化）
-function absTime(iso) {
-  const t = Date.parse(iso || "");
-  if (!Number.isFinite(t)) return "—";
-  const d = new Date(t);
-  const utc = state.tzMode === "utc";
-  const p = n => String(n).padStart(2, "0");
-  const date = utc
-    ? d.getUTCFullYear() + "-" + p(d.getUTCMonth() + 1) + "-" + p(d.getUTCDate())
-    : d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
-  const time = utc
-    ? p(d.getUTCHours()) + ":" + p(d.getUTCMinutes())
-    : p(d.getHours()) + ":" + p(d.getMinutes());
+function absTime(iso, utc) {
+  const t2 = Date.parse(iso || "");
+  if (!Number.isFinite(t2)) return "\u2014";
+  const d = new Date(t2);
+  const p = (n) => String(n).padStart(2, "0");
+  const date = utc ? d.getUTCFullYear() + "-" + p(d.getUTCMonth() + 1) + "-" + p(d.getUTCDate()) : d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+  const time = utc ? p(d.getUTCHours()) + ":" + p(d.getUTCMinutes()) : p(d.getHours()) + ":" + p(d.getMinutes());
   return date + " " + time + (utc ? " UTC" : "");
 }
-
-// 日历月份标签：中文「N月」，英文缩写（Jan…）；对应标签宽度随语言微调
-const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-const monthLabel = m => (LANG === "zh" ? String(m + 1) + "月" : MONTHS[m]);
-const monthLabelWidth = LANG === "zh" ? 26 : 30;
-
-const pad2 = n => String(n).padStart(2, "0");
-const hhmm = t => { const d = new Date(t); return pad2(d.getHours()) + ":" + pad2(d.getMinutes()); };
-const daysSince = iso => {
-  const t = Date.parse(iso || "");
-  return Number.isFinite(t) ? (Date.now() - t) / 864e5 : null;
+var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var monthLabel = (m) => LANG === "zh" ? String(m + 1) + "\u6708" : MONTHS[m];
+var monthLabelWidth = () => LANG === "zh" ? 26 : 30;
+var pad2 = (n) => String(n).padStart(2, "0");
+var hhmm = (t2) => {
+  const d = new Date(t2);
+  return pad2(d.getHours()) + ":" + pad2(d.getMinutes());
 };
-// 保留一位小数，整数不带小数点
-const fmtDays = v => String(v >= 10 ? Math.round(v) : Math.round(v * 10) / 10);
+var daysSince = (iso) => {
+  const t2 = Date.parse(iso || "");
+  return Number.isFinite(t2) ? (Date.now() - t2) / 864e5 : null;
+};
+var fmtDays = (v) => String(v >= 10 ? Math.round(v) : Math.round(v * 10) / 10);
 
-// ---------------------------------------------------------------------------
-// 状态（模块级 reactive）
-// ---------------------------------------------------------------------------
+// src/i18n.js
+var LANG = String(navigator.language || "en").toLowerCase().startsWith("zh") ? "zh" : "en";
+var SITE = LANG === "zh" ? "https://codex-resets.com/zh-CN" : "https://codex-resets.com";
+var I18N = {
+  zh: {
+    "\u526F\u6807\u9898": "\u5E2E\u4F60\u76EF\u7740 Codex \u91CD\u7F6E",
+    "\u5237\u65B0\u6309\u94AE": "\u7ACB\u5373\u5237\u65B0",
+    "\u5206\u4EAB\u6309\u94AE": "\u590D\u5236\u622A\u56FE",
+    "\u672A\u52A0\u8F7D": "\u5C1A\u672A\u83B7\u53D6\u6570\u636E",
+    "\u66F4\u65B0\u65F6\u95F4": (ts) => "\u6570\u636E\u66F4\u65B0\u4E8E " + ts,
+    "\u8BF7\u6C42\u5931\u8D25\u540E\u7F00": " \xB7 \u4E0A\u6B21\u8BF7\u6C42\u5931\u8D25",
+    "\u672C\u5730\u65F6\u533A": "\u672C\u5730",
+    "UTC\u65F6\u533A": "UTC",
+    "\u6700\u65B0\u91CD\u7F6E\u6807\u9898": "\u6700\u8FD1\u4E00\u6B21\u91CD\u7F6E",
+    "\u6682\u65E0\u6570\u636E": "\u6682\u65E0\u6570\u636E",
+    "\u7B49\u5F85\u6570\u636E": "\u7B49\u5F85\u516C\u544A\u6570\u636E",
+    "\u5FBD\u7AE0\u5907\u7528": "\u5907\u7528\u989D\u5EA6",
+    "\u5FBD\u7AE0\u5E38\u89C4": "\u5E38\u89C4\u91CD\u7F6E",
+    "\u5F85\u5B9A\u91CD\u7F6E": "\u5F85\u5B9A\u91CD\u7F6E",
+    "\u503C\u5B88\u4E2D": "\u503C\u5B88\u4E2D",
+    "\u503C\u5B88\u6807\u9898": "\u503C\u5B88\u4E2D\u7684\u91CD\u7F6E",
+    "\u503C\u5B88\u8BF4\u660E": "AI \u9884\u6D4B\uFF0C\u975E\u5B98\u65B9\u627F\u8BFA",
+    "\u7EDF\u8BA1\u6B21\u6570": "\u91CD\u7F6E\u6B21\u6570",
+    "\u7EDF\u8BA1\u6B21\u6570\u503C": (n) => n + " \u6B21",
+    "\u7EDF\u8BA1\u95F4\u9694": "\u5E73\u5747\u95F4\u9694",
+    "\u7EDF\u8BA1\u95F4\u9694\u503C": (v) => fmtDays(v) + " \u5929",
+    "\u7EDF\u8BA1\u8FD1\u671F": "\u8FD1 30 \u5929",
+    "\u7EDF\u8BA1\u8FD1\u671F\u503C": (n) => n + " \u6B21",
+    "\u65E5\u5386\u6807\u9898": "\u91CD\u7F6E\u65E5\u5386\uFF084 \u4E2A\u6708\uFF09",
+    "\u56FE\u4F8B\u5E38\u89C4": "\u6A59 = \u5E38\u89C4",
+    "\u56FE\u4F8B\u5907\u7528": "\u871C\u6843 = \u5907\u7528",
+    "\u65E5\u5386\u683C\u63D0\u793A": (key, type) => key + (type ? " \xB7 " + (type === "banked" ? "\u5907\u7528" : "\u5E38\u89C4") + "\u91CD\u7F6E" : " \u65E0\u91CD\u7F6E"),
+    "\u516C\u544A\u6807\u9898": "\u516C\u544A",
+    "\u516C\u544A\u8BA1\u6570": (shown, total) => "\u6700\u8FD1 " + shown + " / \u5171 " + total + " \u6761",
+    "\u67E5\u770B\u5168\u90E8": (n) => "\u67E5\u770B\u5168\u90E8 " + n + " \u6761 \u2192",
+    "\u516C\u544A\u70B9\u51FB\u63D0\u793A": " \xB7 \u70B9\u51FB\u5728 X \u4E0A\u67E5\u770B",
+    "\u91CD\u8BD5": "\u91CD\u8BD5",
+    "\u9875\u811A": "\u6570\u636E\u6765\u81EA codex-resets.com\uFF08\u76D1\u542C @thsottiaux\uFF09\xB7 \u4E0E OpenAI \u65E0\u5173\u8054",
+    "\u52A0\u8F7D\u5931\u8D25": "\u52A0\u8F7D\u5931\u8D25",
+    "\u52A0\u8F7D\u4E2D": "\u6B63\u5728\u83B7\u53D6\u6570\u636E\u2026",
+    "\u7F51\u7EDC\u9519\u8BEF": (status) => "\u8BF7\u6C42\u5931\u8D25\uFF1AHTTP " + status,
+    "\u683C\u5F0F\u9519\u8BEF": "\u54CD\u5E94\u65E0\u6548\u3002",
+    "\u901A\u77E5\u6807\u9898": "Codex \u989D\u5EA6\u5DF2\u91CD\u7F6E",
+    "\u901A\u77E5\u515C\u5E95": "\u67E5\u770B\u516C\u544A\u539F\u6587",
+    "\u622A\u56FE\u4E0D\u652F\u6301": "\u5F53\u524D\u7248\u672C\u4E0D\u652F\u6301\u622A\u56FE\uFF0C\u8BF7\u5347\u7EA7 Metrix.Bar",
+    "\u622A\u56FE\u6210\u529F": "\u622A\u56FE\u5DF2\u590D\u5236\u5230\u526A\u8D34\u677F",
+    "\u622A\u56FE\u5931\u8D25": (msg) => "\u622A\u56FE\u5931\u8D25\uFF1A" + msg,
+    "\u6258\u76D8\u6700\u8FD1\u91CD\u7F6E": "\u6700\u8FD1\u91CD\u7F6E ",
+    "\u83DC\u5355\u6253\u5F00\u5B98\u7F51": "\u6253\u5F00 codex-resets.com"
+  },
+  en: {
+    "\u526F\u6807\u9898": "Watching Codex resets",
+    "\u5237\u65B0\u6309\u94AE": "Refresh now",
+    "\u5206\u4EAB\u6309\u94AE": "Copy screenshot",
+    "\u672A\u52A0\u8F7D": "Not loaded yet",
+    "\u66F4\u65B0\u65F6\u95F4": (ts) => "Updated " + ts,
+    "\u8BF7\u6C42\u5931\u8D25\u540E\u7F00": " \xB7 last request failed",
+    "\u672C\u5730\u65F6\u533A": "Local",
+    "UTC\u65F6\u533A": "UTC",
+    "\u6700\u65B0\u91CD\u7F6E\u6807\u9898": "Latest reset",
+    "\u6682\u65E0\u6570\u636E": "No data yet",
+    "\u7B49\u5F85\u6570\u636E": "Waiting for data",
+    "\u5FBD\u7AE0\u5907\u7528": "Banked",
+    "\u5FBD\u7AE0\u5E38\u89C4": "Regular",
+    "\u5F85\u5B9A\u91CD\u7F6E": "Scheduled",
+    "\u503C\u5B88\u4E2D": "Watching",
+    "\u503C\u5B88\u6807\u9898": "Resets being watched",
+    "\u503C\u5B88\u8BF4\u660E": "AI prediction, not official",
+    "\u7EDF\u8BA1\u6B21\u6570": "Resets",
+    "\u7EDF\u8BA1\u6B21\u6570\u503C": (n) => String(n),
+    "\u7EDF\u8BA1\u95F4\u9694": "Avg. interval",
+    "\u7EDF\u8BA1\u95F4\u9694\u503C": (v) => fmtDays(v) + " d",
+    "\u7EDF\u8BA1\u8FD1\u671F": "Last 30 days",
+    "\u7EDF\u8BA1\u8FD1\u671F\u503C": (n) => String(n),
+    "\u65E5\u5386\u6807\u9898": "Reset calendar (4 months)",
+    "\u56FE\u4F8B\u5E38\u89C4": "Orange = regular",
+    "\u56FE\u4F8B\u5907\u7528": "Peach = banked",
+    "\u65E5\u5386\u683C\u63D0\u793A": (key, type) => key + (type ? " \xB7 " + (type === "banked" ? "banked" : "regular") + " reset" : " \xB7 no reset"),
+    "\u516C\u544A\u6807\u9898": "Announcements",
+    "\u516C\u544A\u8BA1\u6570": (shown, total) => "latest " + shown + " of " + total,
+    "\u67E5\u770B\u5168\u90E8": (n) => "View all " + n + " \u2192",
+    "\u516C\u544A\u70B9\u51FB\u63D0\u793A": " \xB7 click to open on X",
+    "\u91CD\u8BD5": "Retry",
+    "\u9875\u811A": "Data from codex-resets.com (watching @thsottiaux) \xB7 not affiliated with OpenAI",
+    "\u52A0\u8F7D\u5931\u8D25": "Failed to load",
+    "\u52A0\u8F7D\u4E2D": "Fetching data\u2026",
+    "\u7F51\u7EDC\u9519\u8BEF": (status) => "Request failed: HTTP " + status,
+    "\u683C\u5F0F\u9519\u8BEF": "Invalid response.",
+    "\u901A\u77E5\u6807\u9898": "Codex quota reset",
+    "\u901A\u77E5\u515C\u5E95": "Open the announcement",
+    "\u622A\u56FE\u4E0D\u652F\u6301": "Screenshot needs a newer Metrix.Bar",
+    "\u622A\u56FE\u6210\u529F": "Screenshot copied to clipboard",
+    "\u622A\u56FE\u5931\u8D25": (msg) => "Screenshot failed: " + msg,
+    "\u6258\u76D8\u6700\u8FD1\u91CD\u7F6E": "last reset ",
+    "\u83DC\u5355\u6253\u5F00\u5B98\u7F51": "Open codex-resets.com"
+  }
+};
+var t = (key, ...args) => {
+  const v = (I18N[LANG] || {})[key];
+  return v === void 0 ? key : typeof v === "function" ? v(...args) : v;
+};
 
-const state = reactive({
-  status: null,          // /status 解析结果
-  resets: [],            // /resets 列表（时间倒序）
-  error: "",             // 最近一次请求错误（失败时保留旧数据）
-  loading: false,
-  lastSeenResetId: "",    // 已提醒过的最新公告 id（首次加载只记录）
-  tzMode: "local",       // "local" | "utc"
-  sharing: false,        // 正在截图分享
-  lastLoadedAt: 0,
-});
-let inflight = null;
-
-// ---------------------------------------------------------------------------
-// 数据读取（防御字段缺失）
-// ---------------------------------------------------------------------------
-
-const num = v => (Number.isFinite(v) ? v : null);
-
+// src/api.js
+var num = (v) => Number.isFinite(v) ? v : null;
 function readReset(raw) {
   if (!raw || typeof raw !== "object") return null;
   const out = {
@@ -319,44 +206,111 @@ function readReset(raw) {
     type: raw.reset_type === "banked" ? "banked" : "regular",
     at: String(raw.announced_at || ""),
     text: String(raw.text || ""),
-    url: String(raw.source && raw.source.url || ""),
+    url: String(raw.source && raw.source.url || "")
   };
   if (!out.id && !out.at && !out.text) return null;
   return out;
 }
-
 function readStatus(body) {
   const d = body && body.data && typeof body.data === "object" ? body.data : {};
   const stats = d.stats && typeof d.stats === "object" ? d.stats : {};
   return {
     latest: readReset(d.latest_reset),
-    scheduled: readReset(d.scheduled_reset),   // 可能为 null
-    watch: readReset(d.active_watch),         // 可能为 null
+    scheduled: readReset(d.scheduled_reset),
+    // 可能为 null
+    watch: readReset(d.active_watch),
+    // 可能为 null
     total: num(Number(stats.total)),
     lastResetAt: String(stats.last_reset_at || ""),
     daysSinceLast: num(Number(stats.days_since_last)),
     avgIntervalDays: num(Number(stats.avg_interval_days)),
-    generatedAt: String(body && body.meta && body.meta.generated_at || ""),
+    generatedAt: String(body && body.meta && body.meta.generated_at || "")
   };
 }
-
 async function getJSON(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) throw new Error(t("网络错误", res.status));
-  let body;
-  try { body = await res.json(); } catch (e) { throw new Error(t("JSON错误")); }
-  if (!body || typeof body !== "object") throw new Error(t("格式错误"));
+  if (!res.ok) throw new Error(t("\u7F51\u7EDC\u9519\u8BEF", res.status));
+  let body = null;
+  try {
+    body = await res.json();
+  } catch {
+  }
+  if (!body || typeof body !== "object") throw new Error(t("\u683C\u5F0F\u9519\u8BEF"));
   return body;
 }
 
-// ---------------------------------------------------------------------------
-// 加载 + 新公告提醒
-// ---------------------------------------------------------------------------
+// src/constants.js
+var C = {
+  PAPER: "#fff4dd",
+  // 整体背景
+  CARD: "#fffdf7",
+  // 卡片底色
+  INK: "#26201a",
+  // 主文字色
+  ACCENT: "#ff5c2b",
+  // 强调橙（常规重置）
+  SUN: "#ffd84d",
+  // 太阳黄
+  ROSE: "#ffb9cc",
+  // 玫瑰粉
+  SKY: "#a5dcff",
+  // 天空蓝
+  PEACH: "#ffb07a",
+  // 蜜桃（备用额度）
+  MUTED: "#8a7a63",
+  // 低饱和辅助文字
+  TILE: "#f1e6c8",
+  // 日历无重置日底色（低饱和）
+  LINE: "#e8d9b0",
+  // 次级描边
+  HOVER: "#f3e9cf",
+  // 悬停底色
+  TODAY: "#b9a883",
+  // 日历"今天"标记描边（低对比，不抢眼）
+  HAIR: "#f0e4c6"
+  // 极浅描边（白卡在奶油底上勾个边）
+};
+var W = 380;
+var H = 600;
+var API = "https://codex-resets.com/api/v1";
+var SHOT_HEIGHT = 722;
+var FEED_COUNT = 3;
 
+// src/state.js
+var state = {
+  status: null,
+  // /status 解析结果
+  resets: [],
+  // /resets 列表（时间倒序）
+  error: "",
+  // 最近一次请求错误（失败时保留旧数据）
+  lastLoadedAt: 0,
+  // 最近一次成功加载时间戳
+  seenId: "",
+  // 提醒机：已见过的最新公告 id
+  tzMode: "local"
+  // 时区显示："local" | "utc"
+};
+var TZ_KEY = "tzMode";
+try {
+  if (globalThis.localStorage && globalThis.localStorage.getItem(TZ_KEY) === "utc") {
+    state.tzMode = "utc";
+  }
+} catch {
+}
+function setTzMode(value) {
+  state.tzMode = value;
+  try {
+    globalThis.localStorage && globalThis.localStorage.setItem(TZ_KEY, value);
+  } catch {
+  }
+}
+var inflight = null;
+var loading = () => !!inflight;
 async function load(env) {
   const [st, rs] = await Promise.all([
     getJSON(API + "/status"),
-    getJSON(API + "/resets?limit=100"),
+    getJSON(API + "/resets?limit=100")
   ]);
   const next = readStatus(st);
   const list = Array.isArray(rs && rs.data) ? rs.data.map(readReset).filter(Boolean) : [];
@@ -364,214 +318,272 @@ async function load(env) {
   state.resets = list;
   state.error = "";
   state.lastLoadedAt = Date.now();
-  // 提醒逻辑：首次加载只记录最新公告 id；之后 id 变化才提醒
   const latest = next.latest;
   if (latest && latest.id) {
-    if (state.lastSeenResetId && state.lastSeenResetId !== latest.id) {
+    if (state.seenId && state.seenId !== latest.id) {
       const on = !(env && env.inputs && env.inputs.notifyEnabled === false);
       if (on) {
-        const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "…" : latest.text;
-        $metrix.notify(t("通知标题"), summary || t("通知兜底"));
-        $metrix.toast(t("通知标题"));
+        const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "\u2026" : latest.text;
+        $metrix.notify(t("\u901A\u77E5\u6807\u9898"), summary || t("\u901A\u77E5\u515C\u5E95"));
+        $metrix.toast(t("\u901A\u77E5\u6807\u9898"));
       }
     }
-    state.lastSeenResetId = latest.id;
+    state.seenId = latest.id;
   }
 }
-
 function refresh(env) {
   if (inflight) return inflight;
-  state.loading = true;
   $metrix.invalidate();
-  inflight = load(env)
-    .catch(e => { state.error = String(e && e.message || e); })   // 失败保留旧数据
-    .finally(() => { inflight = null; state.loading = false; $metrix.invalidate(); });
+  inflight = load(env).catch((e) => {
+    state.error = String(e && e.message || e);
+  }).finally(() => {
+    inflight = null;
+    $metrix.invalidate();
+  });
   return inflight;
 }
-const launchRefresh = () => { void refresh(); };
-const openSite = () => $metrix.openURL(SITE);
-
-// 分享：对面板截图并复制到剪贴板。
-// 实测约束：
-// 1. 需在 <script apis="..."> 声明 screenshot，否则 $metrix.panel 是空对象。
-// 2. 必须等面板 commit 后再调用；同步直调会报 context canceled。
-// 3. 常规面板固定 600 高 + Scroll 会裁掉内容；截图前切"分享态"把 Scroll 换成 Column，
-//    内容溢出渲染即可截全。根容器高度保持 600 不变，窗口不抖动。
-//    内容实测 722 DIP 高（标题→页脚），取 722 正好贴合，底部不会露出系统灰底。
-const SHOT_HEIGHT = 722;
-
-let sharing = false;
+var launchRefresh = () => {
+  void refresh();
+};
+function phase() {
+  if (state.status || state.resets.length) return "ready";
+  return state.error ? "problem" : "loading";
+}
+var sharing = false;
+var isSharing = () => sharing;
 function shareShot() {
   if (sharing) return;
   if (typeof ($metrix.panel && $metrix.panel.screenshot) !== "function") {
-    $metrix.notify("Codex Resets", t("截图不支持"));
+    $metrix.notify("Codex Resets", t("\u622A\u56FE\u4E0D\u652F\u6301"));
     return;
   }
   sharing = true;
-  state.sharing = true;
-  $metrix.invalidate();                     // 渲染展开态（完整内容）
+  $metrix.invalidate();
   setTimeout(() => {
     (async () => {
       try {
         const blob = await $metrix.panel.screenshot({ scale: 2, height: SHOT_HEIGHT });
         await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
-        $metrix.notify("Codex Resets", t("截图成功"));
+        $metrix.notify("Codex Resets", t("\u622A\u56FE\u6210\u529F"));
       } catch (e) {
-        $metrix.notify("Codex Resets", t("截图失败", String((e && e.message) || e)));
+        $metrix.notify("Codex Resets", t("\u622A\u56FE\u5931\u8D25", String(e && e.message || e)));
       } finally {
         sharing = false;
-        state.sharing = false;
-        $metrix.invalidate();               // 恢复常规 600px 面板
+        $metrix.invalidate();
       }
     })();
   }, 1500);
 }
 
-// ---------------------------------------------------------------------------
-// 组件
-// ---------------------------------------------------------------------------
+// src/icon.js
+var svgWrap = (paths) => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${paths}</svg>`;
+var CODEX_ICON = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+";
+var ICON = {
+  refresh: svgWrap(`<path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/>`),
+  alert: svgWrap(`<circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/>`),
+  // 分享：iOS 风格方框 + 上箭头
+  share: svgWrap(`<path d="M12 15V3"/><path d="m8 7 4-4 4 4"/><path d="M4 13v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6"/>`)
+};
 
-const card = (children, extra) => el("Box", {
-  background: C.CARD, border: [1, C.HAIR], radius: 13, padding: 14,
-  fillWidth: true, shrink: 0, ...extra,
+// src/ui.js
+var el = (type, props, ...children) => {
+  const kids = children.flat(8).filter((c) => c !== null && c !== void 0 && c !== false).map((c) => typeof c === "string" || typeof c === "number" ? String(c) : c).filter((c) => c != null);
+  const node = { type, props: props || {} };
+  if (kids.length) node.children = kids;
+  return node;
+};
+var TX = (text, props) => ({ type: "Text", props: { text: String(text), ...props } });
+var Icon = (svg, size, color, extra) => el("Icon", { svg, width: size, height: size, fontSize: size, textColor: color || C.INK, shrink: 0, ...extra });
+var openSite = () => $metrix.openURL(SITE);
+var card = (children, extra) => el("Box", {
+  background: C.CARD,
+  border: [1, C.HAIR],
+  radius: 13,
+  padding: 14,
+  fillWidth: true,
+  shrink: 0,
+  ...extra
 }, children);
-
 function IconButton(name, label, onClick, busy) {
   return el("Column", {
-    width: 26, height: 26, center: true, radius: 7, shrink: 0,
-    label, tooltip: label, cursor: "pointer",
-    hover: { background: C.HOVER }, pressed: { background: C.TILE }, onClick,
+    width: 26,
+    height: 26,
+    center: true,
+    radius: 7,
+    shrink: 0,
+    label,
+    tooltip: label,
+    cursor: "pointer",
+    hover: { background: C.HOVER },
+    pressed: { background: C.TILE },
+    onClick
   }, Icon(ICON[name], 14, C.INK, busy ? {
-    keyframes: { duration: 900, repeat: -1, ease: "linear", frames: [{ at: 0, rotate: 0 }, { at: 1, rotate: 360 }] },
+    keyframes: { duration: 900, repeat: -1, ease: "linear", frames: [{ at: 0, rotate: 0 }, { at: 1, rotate: 360 }] }
   } : null));
 }
-
-// 类型徽章：regular=「常规重置」橙系 / banked=「备用额度」蜜桃系
 function TypeBadge(type) {
   const banked = type === "banked";
   return el("Badge", {
-    text: banked ? t("徽章备用") : t("徽章常规"),
+    text: banked ? t("\u5FBD\u7AE0\u5907\u7528") : t("\u5FBD\u7AE0\u5E38\u89C4"),
     background: banked ? C.PEACH : C.ACCENT,
     textColor: banked ? C.INK : C.CARD,
-    fontSize: 10, fontWeight: 600, padding: [2, 6], radius: 6, shrink: 0,
+    fontSize: 10,
+    fontWeight: 600,
+    padding: [2, 6],
+    radius: 6,
+    shrink: 0
   });
 }
-
 function updateLine() {
-  if (!state.lastLoadedAt) return t("未加载");
-  return t("更新时间", hhmm(state.lastLoadedAt)) + (state.error ? t("请求失败后缀") : "");
+  if (!state.lastLoadedAt) return t("\u672A\u52A0\u8F7D");
+  return t("\u66F4\u65B0\u65F6\u95F4", hhmm(state.lastLoadedAt)) + (state.error ? t("\u8BF7\u6C42\u5931\u8D25\u540E\u7F00") : "");
 }
-
-// 1. 头部：标题 + 副标题 + 数据更新时间
 function Header() {
-  return el("Column", { gap: 2, fillWidth: true, shrink: 0 },
-    el("Row", { gap: 8, alignItems: "center", fillWidth: true },
+  return el(
+    "Column",
+    { gap: 2, fillWidth: true, shrink: 0 },
+    el(
+      "Row",
+      { gap: 8, alignItems: "center", fillWidth: true },
       TX("Codex Resets", { fontSize: 15, fontWeight: 700, singleLine: true }),
       el("Spacer"),
       // 更新时间放在右侧，紧跟刷新按钮
       TX(updateLine(), { fontSize: 10, textColor: C.MUTED, singleLine: true }),
-      IconButton("refresh", t("刷新按钮"), launchRefresh, state.loading),
-      IconButton("share", t("分享按钮"), shareShot, state.sharing)),
-    TX(t("副标题"), { fontSize: 11, textColor: C.MUTED, singleLine: true }));
+      IconButton("refresh", t("\u5237\u65B0\u6309\u94AE"), launchRefresh, loading()),
+      IconButton("share", t("\u5206\u4EAB\u6309\u94AE"), shareShot, isSharing())
+    ),
+    TX(t("\u526F\u6807\u9898"), { fontSize: 11, textColor: C.MUTED, singleLine: true })
+  );
 }
-
-// 2. Hero 卡：大号相对时间 + 绝对时间（本地/UTC 切换）+ 类型徽章
-// 分段控件自绘：原生 Segmented 的文字取系统主题色，在奶油卡片上深色模式会不可读。
 function TZSwitch() {
   const seg = (value, label) => {
     const active = state.tzMode === value;
     return el("Box", {
-      padding: [3, 9], radius: 6, shrink: 0, cursor: "pointer",
+      padding: [3, 9],
+      radius: 6,
+      shrink: 0,
+      cursor: "pointer",
       background: active ? C.INK : C.TILE,
-      onClick: () => { state.tzMode = value; $metrix.invalidate(); },
+      onClick: () => {
+        setTzMode(value);
+        $metrix.invalidate();
+      }
     }, TX(label, { fontSize: 10, fontWeight: 600, singleLine: true, textColor: active ? C.CARD : C.MUTED }));
   };
   return el("Row", {
-    gap: 0, padding: 2, radius: 8, shrink: 0,
-    background: C.TILE, border: [1, C.LINE], alignItems: "center",
-  }, seg("local", t("本地时区")), seg("utc", t("UTC时区")));
+    gap: 0,
+    padding: 2,
+    radius: 8,
+    shrink: 0,
+    background: C.TILE,
+    border: [1, C.LINE],
+    alignItems: "center"
+  }, seg("local", t("\u672C\u5730\u65F6\u533A")), seg("utc", t("UTC\u65F6\u533A")));
 }
-
 function Hero() {
   const latest = state.status && state.status.latest;
+  const utc = state.tzMode === "utc";
   return card([
-    el("Row", { gap: 6, alignItems: "center", fillWidth: true },
-      TX(t("最新重置标题"), { fontSize: 11, textColor: C.MUTED, singleLine: true }),
+    el(
+      "Row",
+      { gap: 6, alignItems: "center", fillWidth: true },
+      TX(t("\u6700\u65B0\u91CD\u7F6E\u6807\u9898"), { fontSize: 11, textColor: C.MUTED, singleLine: true }),
       el("Spacer"),
-      TZSwitch()),
-    latest && latest.at
-      ? el("Column", { gap: 5, fillWidth: true, padding: [2, 0, 0, 0] },
-          TX(relTime(latest.at), { fontSize: 34, fontWeight: 700, singleLine: true }),
-          el("Row", { gap: 8, alignItems: "center", wrap: true },
-            TX(absTime(latest.at), { fontSize: 11, textColor: C.MUTED }),
-            TypeBadge(latest.type)))
-      : el("Column", { gap: 6, padding: [10, 0] },
-          TX(t("暂无数据"), { fontSize: 26, fontWeight: 700 }),
-          TX(t("等待数据"), { fontSize: 11, textColor: C.MUTED })),
+      TZSwitch()
+    ),
+    latest && latest.at ? el(
+      "Column",
+      { gap: 5, fillWidth: true, padding: [2, 0, 0, 0] },
+      TX(relTime(latest.at), { fontSize: 34, fontWeight: 700, singleLine: true }),
+      el(
+        "Row",
+        { gap: 8, alignItems: "center", wrap: true },
+        TX(absTime(latest.at, utc), { fontSize: 11, textColor: C.MUTED }),
+        TypeBadge(latest.type)
+      )
+    ) : el(
+      "Column",
+      { gap: 6, padding: [10, 0] },
+      TX(t("\u6682\u65E0\u6570\u636E"), { fontSize: 26, fontWeight: 700 }),
+      TX(t("\u7B49\u5F85\u6570\u636E"), { fontSize: 11, textColor: C.MUTED })
+    )
   ]);
 }
-
-// 3. 待定值守卡：scheduled_reset / active_watch 判空渲染
 function Watch() {
   if (!state.status) return null;
   const s = state.status;
+  const utc = state.tzMode === "utc";
   const slot = (title, r) => {
-    if (!r || (!r.at && !r.text)) return null;   // 防御字段缺失
-    return el("Column", { gap: 4, fillWidth: true },
-      el("Row", { gap: 6, alignItems: "center", wrap: true },
+    if (!r || !r.at && !r.text) return null;
+    return el(
+      "Column",
+      { gap: 4, fillWidth: true },
+      el(
+        "Row",
+        { gap: 6, alignItems: "center", wrap: true },
         TX(title, { fontSize: 11, fontWeight: 600, textColor: C.ACCENT, singleLine: true }),
         r.at ? TX(relTime(r.at), { fontSize: 11, singleLine: true }) : null,
-        r.at ? TX(absTime(r.at), { fontSize: 10, textColor: C.MUTED, singleLine: true }) : null),
-      r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null);
+        r.at ? TX(absTime(r.at, utc), { fontSize: 10, textColor: C.MUTED, singleLine: true }) : null
+      ),
+      r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null
+    );
   };
-  const scheduled = slot(t("待定重置"), s.scheduled);
-  const watch = slot(t("值守中"), s.watch);
-  if (!scheduled && !watch) return null;   // 无值守时不占位
+  const scheduled = slot(t("\u5F85\u5B9A\u91CD\u7F6E"), s.scheduled);
+  const watch = slot(t("\u503C\u5B88\u4E2D"), s.watch);
+  if (!scheduled && !watch) return null;
   return card([
-    TX(t("值守标题"), { fontSize: 12, fontWeight: 600 }),
-    el("Column", { gap: 10, fillWidth: true, padding: [6, 0, 0, 0] },
-      scheduled, watch,
-      TX(t("值守说明"), { fontSize: 10, textColor: C.MUTED })),
+    TX(t("\u503C\u5B88\u6807\u9898"), { fontSize: 12, fontWeight: 600 }),
+    el(
+      "Column",
+      { gap: 10, fillWidth: true, padding: [6, 0, 0, 0] },
+      scheduled,
+      watch,
+      TX(t("\u503C\u5B88\u8BF4\u660E"), { fontSize: 10, textColor: C.MUTED })
+    )
   ]);
 }
-
-// 4. 统计瓦片行：重置次数 / 平均间隔 / 距上次（太阳黄 / 玫瑰粉 / 天空蓝）
-// 近 30 天内的重置次数（Hero 卡已展示"距上次"，此处换成不重复的近期密度）
 function recentCount(days) {
   const cut = Date.now() - days * 864e5;
   let n = 0;
   for (const r of state.resets) {
-    const t = Date.parse(r.at);
-    if (Number.isFinite(t) && t >= cut) n++;
+    const t2 = Date.parse(r.at);
+    if (Number.isFinite(t2) && t2 >= cut) n++;
   }
   return n;
 }
-
 function Stats() {
   const s = state.status;
   const tile = (bg, label, value) => el("Box", {
-    background: bg, border: [1, C.HAIR], radius: 10, padding: [10, 10],
-    grow: 1, basis: 0,
-  }, el("Column", { gap: 2 },
+    background: bg,
+    border: [1, C.HAIR],
+    radius: 10,
+    padding: [10, 10],
+    grow: 1,
+    basis: 0
+  }, el(
+    "Column",
+    { gap: 2 },
     TX(label, { fontSize: 10, singleLine: true }),
-    TX(value, { fontSize: 16, fontWeight: 700, singleLine: true })));
-  return el("Grid", { columns: 3, gap: 8, fillWidth: true, shrink: 0 },
-    tile(C.SUN, t("统计次数"), s && s.total != null ? t("统计次数值", s.total) : "—"),
-    tile(C.ROSE, t("统计间隔"), s && s.avgIntervalDays != null ? t("统计间隔值", s.avgIntervalDays) : "—"),
-    tile(C.SKY, t("统计近期"), t("统计近期值", recentCount(30))));
+    TX(value, { fontSize: 16, fontWeight: 700, singleLine: true })
+  ));
+  return el(
+    "Grid",
+    { columns: 3, gap: 8, fillWidth: true, shrink: 0 },
+    tile(C.SUN, t("\u7EDF\u8BA1\u6B21\u6570"), s && s.total != null ? t("\u7EDF\u8BA1\u6B21\u6570\u503C", s.total) : "\u2014"),
+    tile(C.ROSE, t("\u7EDF\u8BA1\u95F4\u9694"), s && s.avgIntervalDays != null ? t("\u7EDF\u8BA1\u95F4\u9694\u503C", s.avgIntervalDays) : "\u2014"),
+    tile(C.SKY, t("\u7EDF\u8BA1\u8FD1\u671F"), t("\u7EDF\u8BA1\u8FD1\u671F\u503C", recentCount(30)))
+  );
 }
-
-// 5. 日历热力图：近 4 个月按月分组，橙=常规、蜜桃=备用
 function Heatmap() {
-  const map = {};   // 本地日期 → reset_type
+  const map = {};
   for (const r of state.resets) {
-    const t = Date.parse(r.at);
-    if (!Number.isFinite(t)) continue;
-    const d = new Date(t);
+    const t2 = Date.parse(r.at);
+    if (!Number.isFinite(t2)) continue;
+    const d = new Date(t2);
     const key = d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
-    if (!(key in map)) map[key] = r.type;   // 同一天多条取最新一条
+    if (!(key in map)) map[key] = r.type;
   }
-  const now = new Date();
+  const now = /* @__PURE__ */ new Date();
   const todayKey = now.getFullYear() + "-" + pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
   const rows = [];
   for (let i = 3; i >= 0; i--) {
@@ -581,99 +593,141 @@ function Heatmap() {
     for (let d = 1; d <= dim; d++) {
       const key = first.getFullYear() + "-" + pad2(first.getMonth() + 1) + "-" + pad2(d);
       const type = map[key];
-      // 每格 grow:1 自适应铺满可用宽度（固定 7px 会右侧大片留白）
       cells.push(el("Box", {
-        aspectRatio: 1, radius: 2, grow: 1, basis: 0, shrink: 1,
-        background: type ? (type === "banked" ? C.PEACH : C.ACCENT) : C.TILE,
+        aspectRatio: 1,
+        radius: 2,
+        grow: 1,
+        basis: 0,
+        shrink: 1,
+        background: type ? type === "banked" ? C.PEACH : C.ACCENT : C.TILE,
         opacity: key > todayKey ? 0.35 : 1,
-        ...(key === todayKey ? { border: [1, C.TODAY] } : null),
-        tooltip: t("日历格提示", key, type),
+        ...key === todayKey ? { border: [1, C.TODAY] } : null,
+        tooltip: t("\u65E5\u5386\u683C\u63D0\u793A", key, type)
       }));
     }
-    rows.push(el("Row", { gap: 8, alignItems: "center", fillWidth: true },
-      TX(monthLabel(first.getMonth()), { fontSize: 10, textColor: C.MUTED, width: monthLabelWidth, shrink: 0 }),
-      el("Row", { gap: 2, wrap: false, fillWidth: true, grow: 1, basis: 0 }, cells)));
+    rows.push(el(
+      "Row",
+      { gap: 8, alignItems: "center", fillWidth: true },
+      TX(monthLabel(first.getMonth()), { fontSize: 10, textColor: C.MUTED, width: monthLabelWidth(), shrink: 0 }),
+      el("Row", { gap: 2, wrap: false, fillWidth: true, grow: 1, basis: 0 }, cells)
+    ));
   }
-  const swatch = (color, label) => el("Row", { gap: 4, alignItems: "center" },
+  const swatch = (color, label) => el(
+    "Row",
+    { gap: 4, alignItems: "center" },
     el("Box", { width: 8, height: 8, radius: 2, background: color, shrink: 0 }),
-    TX(label, { fontSize: 10, textColor: C.MUTED }));
+    TX(label, { fontSize: 10, textColor: C.MUTED })
+  );
   return card([
-    TX(t("日历标题"), { fontSize: 12, fontWeight: 600 }),
+    TX(t("\u65E5\u5386\u6807\u9898"), { fontSize: 12, fontWeight: 600 }),
     el("Column", { gap: 4, fillWidth: true, padding: [8, 0, 0, 0] }, rows),
-    el("Row", { gap: 12, padding: [8, 0, 0, 0] },
-      swatch(C.ACCENT, t("图例常规")),
-      swatch(C.PEACH, t("图例备用"))),
+    el(
+      "Row",
+      { gap: 12, padding: [8, 0, 0, 0] },
+      swatch(C.ACCENT, t("\u56FE\u4F8B\u5E38\u89C4")),
+      swatch(C.PEACH, t("\u56FE\u4F8B\u5907\u7528"))
+    )
   ]);
 }
-
-// 6. 公告流：相对+绝对时间 + 原文 + X 链接
-// 公告卡：整卡可点直达推文，绝对时间收进 tooltip，避免四组信息挤在一行
 function FeedItem(r) {
   const open = r.url ? { onClick: () => $metrix.openURL(r.url), cursor: "pointer" } : null;
   return el("Box", {
-    background: C.CARD, border: [1, C.HAIR], radius: 10, padding: [10, 12],
-    fillWidth: true, shrink: 0, tooltip: absTime(r.at) + (r.url ? t("公告点击提示") : ""),
+    background: C.CARD,
+    border: [1, C.HAIR],
+    radius: 10,
+    padding: [10, 12],
+    fillWidth: true,
+    shrink: 0,
+    tooltip: absTime(r.at, state.tzMode === "utc") + (r.url ? t("\u516C\u544A\u70B9\u51FB\u63D0\u793A") : ""),
     hover: open ? { background: C.HOVER } : null,
-    ...(open || null),
-  }, el("Column", { gap: 4, fillWidth: true },
-    el("Row", { gap: 6, alignItems: "center", wrap: true },
+    ...open || null
+  }, el(
+    "Column",
+    { gap: 4, fillWidth: true },
+    el(
+      "Row",
+      { gap: 6, alignItems: "center", wrap: true },
       TypeBadge(r.type),
-      TX(relTime(r.at), { fontSize: 11, fontWeight: 600 })),
-    r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null));
+      TX(relTime(r.at), { fontSize: 11, fontWeight: 600 })
+    ),
+    r.text ? TX(r.text, { fontSize: 12, lineHeight: 1.4 }) : null
+  ));
 }
-
-// 公告固定展示最近 3 条，其余引导到官网查看完整归档。
-const FEED_COUNT = 3;
 function Feed() {
   const list = state.resets;
   const shown = list.slice(0, FEED_COUNT);
-  return el("Column", { gap: 8, fillWidth: true, shrink: 0 },
-    el("Row", { gap: 6, alignItems: "center", fillWidth: true },
-      TX(t("公告标题"), { fontSize: 12, fontWeight: 600 }),
-      TX(list.length ? t("公告计数", shown.length, list.length) : "", { fontSize: 10, textColor: C.MUTED })),
-    shown.map(r => FeedItem(r)),
-    list.length > FEED_COUNT
-      ? el("Row", { center: true, fillWidth: true },
-          el("Link", { text: t("查看全部", list.length), url: SITE, href: SITE,
-            fontSize: 10, textColor: C.MUTED }))
-      : null);
+  return el(
+    "Column",
+    { gap: 8, fillWidth: true, shrink: 0 },
+    el(
+      "Row",
+      { gap: 6, alignItems: "center", fillWidth: true },
+      TX(t("\u516C\u544A\u6807\u9898"), { fontSize: 12, fontWeight: 600 }),
+      TX(list.length ? t("\u516C\u544A\u8BA1\u6570", shown.length, list.length) : "", { fontSize: 10, textColor: C.MUTED })
+    ),
+    shown.map((r) => FeedItem(r)),
+    list.length > FEED_COUNT ? el(
+      "Row",
+      { center: true, fillWidth: true },
+      el("Link", {
+        text: t("\u67E5\u770B\u5168\u90E8", list.length),
+        url: SITE,
+        href: SITE,
+        fontSize: 10,
+        textColor: C.MUTED
+      })
+    ) : null
+  );
 }
-
-// 错误横幅：保留旧数据的同时提示失败 + 重试
 function ErrorBanner() {
-  return el("Row", {
-    gap: 8, padding: [8, 10], radius: 8, background: C.ROSE, border: [1, C.INK],
-    alignItems: "center", fillWidth: true, shrink: 0,
-  },
+  return el(
+    "Row",
+    {
+      gap: 8,
+      padding: [8, 10],
+      radius: 8,
+      background: C.ROSE,
+      border: [1, C.INK],
+      alignItems: "center",
+      fillWidth: true,
+      shrink: 0
+    },
     Icon(ICON.alert, 13, C.INK),
     TX(state.error, { fontSize: 11, grow: 1, shrink: 1, lineHeight: 1.3 }),
-    el("Button", { onClick: launchRefresh }, t("重试")));
+    el("Button", { onClick: launchRefresh }, t("\u91CD\u8BD5"))
+  );
 }
-
-// 7. 底部来源说明
 function Footer() {
-  return TX(t("页脚"),
-    { fontSize: 10, textColor: C.MUTED, textAlign: "center", lineHeight: 1.4, padding: [2, 0, 6, 0] });
+  return TX(
+    t("\u9875\u811A"),
+    { fontSize: 10, textColor: C.MUTED, textAlign: "center", lineHeight: 1.4, padding: [2, 0, 6, 0] }
+  );
 }
-
 function Problem() {
-  return el("Column", { gap: 10, center: true, padding: [36, 20], fillWidth: true, grow: 1 },
+  return el(
+    "Column",
+    { gap: 10, center: true, padding: [36, 20], fillWidth: true, grow: 1 },
     Icon(ICON.alert, 22, C.ACCENT),
-    TX(t("加载失败"), { fontSize: 14, fontWeight: 600, textAlign: "center" }),
+    TX(t("\u52A0\u8F7D\u5931\u8D25"), { fontSize: 14, fontWeight: 600, textAlign: "center" }),
     TX(state.error, { fontSize: 11, textColor: C.MUTED, textAlign: "center", lineHeight: 1.35 }),
-    el("Button", { onClick: launchRefresh }, t("重试")));
+    el("Button", { onClick: launchRefresh }, t("\u91CD\u8BD5"))
+  );
 }
-
 function Loading() {
-  return el("Column", { gap: 12, center: true, padding: [40, 20], fillWidth: true },
+  return el(
+    "Column",
+    { gap: 12, center: true, padding: [40, 20], fillWidth: true },
     el("Spinner"),
-    TX(t("加载中"), { fontSize: 12, textColor: C.MUTED }));
+    TX(t("\u52A0\u8F7D\u4E2D"), { fontSize: 12, textColor: C.MUTED })
+  );
 }
-
 function Body() {
-  const hasData = !!(state.status || state.resets.length);
-  if (!hasData) return state.error ? Problem() : Loading();
-  return el("Column", { gap: 12, padding: [14, 16, 10, 16], fillWidth: true },
+  const p = phase();
+  if (p === "problem") return Problem();
+  if (p === "loading") return Loading();
+  return el(
+    "Column",
+    { gap: 12, padding: [14, 16, 10, 16], fillWidth: true },
     state.error ? ErrorBanner() : null,
     Header(),
     Hero(),
@@ -681,62 +735,54 @@ function Body() {
     Stats(),
     Heatmap(),
     Feed(),
-    Footer());
+    Footer()
+  );
 }
-
-// ---------------------------------------------------------------------------
-// tray / panel
-// ---------------------------------------------------------------------------
-
 function trayTree() {
   const s = state.status;
   const latest = s && s.latest;
   let days = s && s.daysSinceLast != null ? s.daysSinceLast : null;
   if (days == null) days = daysSince(s && s.lastResetAt || latest && latest.at || "");
-  const title = days != null ? fmtDays(days) + "d" : state.error ? "!" : "—";
-  const tip = latest && latest.text
-    ? "Codex Resets · " + t("托盘最近重置") + relTime(latest.at) + " · " + latest.text.slice(0, 60)
-    : "Codex Resets";
+  const title = days != null ? fmtDays(days) + "d" : state.error ? "!" : "\u2014";
+  const tip = latest && latest.text ? "Codex Resets \xB7 " + t("\u6258\u76D8\u6700\u8FD1\u91CD\u7F6E") + relTime(latest.at) + " \xB7 " + latest.text.slice(0, 60) : "Codex Resets";
   return {
     icon: CODEX_ICON,
     iconTemplate: true,
     title,
     tooltip: tip,
     menu: [
-      { label: t("刷新按钮"), onClick: launchRefresh },
-      { label: t("菜单打开官网"), onClick: openSite },
-    ],
+      { label: t("\u5237\u65B0\u6309\u94AE"), onClick: launchRefresh },
+      { label: t("\u83DC\u5355\u6253\u5F00\u5B98\u7F51"), onClick: openSite }
+    ]
   };
 }
-
 function panelTree() {
-  // 根容器高度恒定：窗口尺寸不随分享状态变化，避免截图时窗口抖动。
-  // 分享态仅把内层 Scroll 换成 Column，让内容溢出渲染，从而能截到 600px 以下的部分。
-  // 分享态：外层保持 600 高（窗口不抖），但背景需覆盖溢出的内容，
-  // 故在分享态下让内层 Column 自带奶油底色并向下延伸。
-  // 分享态内层显式撑到截图高度：否则 600 以下的溢出区没有奶油底，截图会露出系统灰边。
-  const inner = state.sharing
-    ? el("Column", { fillWidth: true, height: SHOT_HEIGHT, background: C.PAPER }, Body())
-    : el("Scroll", { grow: 1, basis: 0, fillWidth: true }, Body());
+  const inner = isSharing() ? el("Column", { fillWidth: true, height: SHOT_HEIGHT, background: C.PAPER }, Body()) : el("Scroll", { grow: 1, basis: 0, fillWidth: true }, Body());
   return el("Column", {
-    width: W, height: H, fontSize: 13, textColor: C.INK, background: C.PAPER,
-    shortcuts: { "CmdOrCtrl+R": launchRefresh },
+    width: W,
+    height: H,
+    fontSize: 13,
+    textColor: C.INK,
+    background: C.PAPER,
+    shortcuts: { "CmdOrCtrl+R": launchRefresh }
   }, inner);
 }
 
-export default {
+// src/main.js
+var main_default = {
+  // 定时刷新（refresh="2m"）；env.inputs.notifyEnabled 控制新公告提醒
   async scheduled(env) {
     await refresh(env);
   },
-
   render() {
-    return { tray: trayTree(), panel: toJSON(panelTree()) };
+    return { tray: trayTree(), panel: panelTree() };
   },
-
   event(name, payload) {
-    if (name === "lifecycle" && payload && payload.type === "expand" && !inflight &&
-        Date.now() - state.lastLoadedAt > 120e3) launchRefresh();
-  },
+    if (name === "lifecycle" && payload && payload.type === "expand" && !loading() && Date.now() - state.lastLoadedAt > 12e4) launchRefresh();
+  }
+};
+export {
+  main_default as default
 };
   ]]></script>
 </bar>

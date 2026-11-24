@@ -8,12 +8,12 @@ Codex 额度什么时候重置，你不用再盯着官网刷新。
 
 点开下面的链接，再打开下载好的文件即可 —— Metrix.Bar 直接导入 `.bar`。
 
-- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.2.0/codex-resets.bar)
+- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.3.0/codex-resets.bar)
 
 也可以把下面这行粘到浏览器地址栏，直接从 CDN 导入：
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.2.0%2Fcodex-resets.bar&sha256=fc7fbea1177732718bb8141b652681f5a00b11f5c3b80e913e24a6921476916c
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.3.0%2Fcodex-resets.bar&sha256=4c732895f5a975c55b3c99cd4e8f30900ed539c0574abc401a99c3c91ac65063
 ```
 
 GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制文本给出。
@@ -33,10 +33,22 @@ GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制文
 
 ## 补充说明
 
-每 2 分钟刷新一次；请求失败会保留上一次的数据并给出重试，不会变成空面板。请求直连 `codex-resets.com`，本机需要能访问该域名。提醒默认开启，可在看板设置里关闭。Vue 运行时在启动时从 CDN 加载：主源 JSDMirror，jsDelivr 兜底。
+每 2 分钟刷新一次；请求失败会保留上一次的数据并给出重试，不会变成空面板。请求直连 `codex-resets.com`，本机需要能访问该域名。提醒默认开启，可在看板设置里关闭。
+
+## 开发
+
+`.bar` 文件是构建产物——源码在 `src/`，用 esbuild 打包（零运行时依赖；脚本除 codex-resets.com API 外不加载任何东西）。
+
+```sh
+npm install        # 安装 esbuild（开发依赖）
+node build.mjs     # 打包 src/ 生成 codex-resets.bar
+node build.mjs --check   # 校验仓库内 .bar：XML 良构、脚本语法、构建新鲜度
+```
+
+冒烟测试（真实 API fixture、mock 的 `$metrix`/`fetch`、双语渲染、失败重试、刷新去重、时区持久化、通知武装）放在仓库外的 `/tmp`，对构建产物 CDATA 脚本运行。
 
 ## 来源与许可
 
 数据来自 [codex-resets.com](https://codex-resets.com) 的公开 API，与本项目无隶属关系，也不代表 OpenAI。
 
-[Apache-2.0](LICENSE)。Vue 运行时在启动时从 CDN 加载（主源 JSDMirror、jsDelivr 兜底），仍适用其 MIT 协议。「OpenAI」「Codex」为 OpenAI 商标，仅用于标识所监控的服务。
+[Apache-2.0](LICENSE)。「OpenAI」「Codex」为 OpenAI 商标，仅用于标识所监控的服务。

@@ -1,0 +1,14 @@
+{
+  "name": "codex-resets-bar",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Metrix.Bar menu bar dashboard tracking OpenAI Codex quota reset announcements (codex-resets.com)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node build.mjs --check"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}

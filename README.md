@@ -8,12 +8,12 @@ A menu bar dashboard for [Metrix.Bar](https://metrix.bar) that watches OpenAI Co
 
 Open the link, then open the downloaded file — Metrix.Bar imports `.bar` files directly.
 
-- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.2.0/codex-resets.bar)
+- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.3.0/codex-resets.bar)
 
 Or paste this into your browser's address bar to import straight from the CDN:
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.2.0%2Fcodex-resets.bar&sha256=fc7fbea1177732718bb8141b652681f5a00b11f5c3b80e913e24a6921476916c
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.3.0%2Fcodex-resets.bar&sha256=4c732895f5a975c55b3c99cd4e8f30900ed539c0574abc401a99c3c91ac65063
 ```
 
 GitHub strips custom schemes from rendered Markdown, so that link is copyable text rather than a clickable anchor.
@@ -33,10 +33,22 @@ The dashboard language follows your Metrix.Bar display language — Chinese for 
 
 ## Good to know
 
-It refreshes every 2 minutes; a failed request keeps the last good data and offers Retry. Requests go straight to `codex-resets.com`, so that host must be reachable. Alerts are on by default and can be turned off in dashboard settings. The Vue runtime loads at startup from a CDN — JSDMirror first, with jsDelivr as a fallback.
+It refreshes every 2 minutes; a failed request keeps the last good data and offers Retry. Requests go straight to `codex-resets.com`, so that host must be reachable. Alerts are on by default and can be turned off in dashboard settings.
+
+## Development
+
+The `.bar` file is a build artifact — the source lives in `src/` and is bundled with esbuild (zero runtime dependencies; the script never loads anything besides the codex-resets.com API).
+
+```sh
+npm install        # esbuild (dev dependency)
+node build.mjs     # bundle src/ into codex-resets.bar
+node build.mjs --check   # validate the committed .bar: XML, script syntax, build freshness
+```
+
+For smoke testing, a rendering harness (real API fixtures, mocked `$metrix`/`fetch`, both languages, error/retry, refresh dedup, timezone persistence, notification arming) lives outside the repo in `/tmp` and is run against the built `.bar`'s CDATA script.
 
 ## Credits & license
 
 Data comes from the public [codex-resets.com](https://codex-resets.com) API. Not affiliated with codex-resets.com or OpenAI.
 
-[Apache-2.0](LICENSE). Vue is loaded from a CDN at startup (JSDMirror primary, jsDelivr fallback) and stays under MIT. "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the monitored service.
+[Apache-2.0](LICENSE). "OpenAI" and "Codex" are trademarks of OpenAI, used only to identify the monitored service.
