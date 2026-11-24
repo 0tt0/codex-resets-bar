@@ -9,7 +9,7 @@ import { join } from "node:path";
 import { CODEX_ICON } from "./src/icon.js";
 
 const OUT = "codex-resets.bar";
-const VERSION = "0.3.0";
+const VERSION = "0.3.1";
 
 async function bundle() {
   const result = await build({

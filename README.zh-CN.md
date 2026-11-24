@@ -8,12 +8,12 @@ Codex 额度什么时候重置，你不用再盯着官网刷新。
 
 点开下面的链接，再打开下载好的文件即可 —— Metrix.Bar 直接导入 `.bar`。
 
-- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.3.0/codex-resets.bar)
+- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.3.1/codex-resets.bar)
 
 也可以把下面这行粘到浏览器地址栏，直接从 CDN 导入：
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.3.0%2Fcodex-resets.bar&sha256=4c732895f5a975c55b3c99cd4e8f30900ed539c0574abc401a99c3c91ac65063
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.3.1%2Fcodex-resets.bar&sha256=2db8fe181885ca221f130def2945e1de2178982036214dd8e0ab5e13bcae6c84
 ```
 
 GitHub 渲染 Markdown 时会剥离自定义协议，所以这里以可复制文本给出。

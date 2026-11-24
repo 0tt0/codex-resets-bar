@@ -236,7 +236,7 @@ function Feed() {
     shown.map(r => FeedItem(r)),
     list.length > FEED_COUNT
       ? el("Row", { center: true, fillWidth: true },
-          el("Link", { text: t("查看全部", list.length), url: SITE, href: SITE,
+          el("Link", { text: t("查看全部"), url: SITE, href: SITE,
             fontSize: 10, textColor: C.MUTED }))
       : null);
 }
@@ -307,7 +307,6 @@ function trayTree() {
     title,
     tooltip: tip,
     menu: [
-      { label: t("刷新按钮"), onClick: launchRefresh },
       { label: t("菜单打开官网"), onClick: openSite },
     ],
   };
