@@ -1,14 +1,17 @@
 <bar protocol-version="0"
      id="codex-resets"
      title="Codex Resets"
-     version="0.3.1"
+     version="0.4.0"
+     license="Apache-2.0"
      category="ai"
      refresh="2m"
      placements="menubar"
      open-mode="flyout"
-     description="追踪 Codex 额度重置公告，新公告即提醒 / Track Codex quota resets and get notified."
+     description="追踪 Codex 额度重置公告，新公告即提醒"
      homepage="https://codex-resets.com"
      icon="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjAwMDUgMTMuNTk5MkMxNi40OTcyIDEzLjU5OTUgMTYuOTAwNyAxNC4wMDI5IDE2LjkwMDkgMTQuNDk5NkMxNi45MDA5IDE0Ljk5NjUgMTYuNDk3NCAxNS4zOTk3IDE2LjAwMDUgMTUuNEgxMy4wMDA1QzEyLjUwMzUgMTUuNCAxMi4xMDAyIDE0Ljk5NjcgMTIuMTAwMiAxNC40OTk2QzEyLjEwMDQgMTQuMDAyNyAxMi41MDM2IDEzLjU5OTIgMTMuMDAwNSAxMy41OTkySDE2LjAwMDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDM3NjUgOC43MjgxMUM4LjQ2Mzc3IDguNDcyODQgOS4wMTYzOCA4LjYxMDc0IDkuMjcyMDMgOS4wMzY3MUwxMC42MTc3IDExLjI3ODlDMTAuODgzNiAxMS43MjIxIDEwLjg4MzQgMTIuMjc3IDEwLjYxNzcgMTIuNzIwM0w5LjI3MjAzIDE0Ljk2MjVDOS4wMTYzMyAxNS4zODg3IDguNDYzODUgMTUuNTI2NyA4LjAzNzY1IDE1LjI3MTFDNy42MTE0MyAxNS4wMTUzIDcuNDczMzMgMTQuNDYyOSA3LjcyOTA2IDE0LjAzNjdMOC45NTA3NCAxMS45OTk2TDcuNzI5MDYgOS45NjI0OUM3LjQ3MzQxIDkuNTM2MjggNy42MTE0NiA4Ljk4MzgyIDguMDM3NjUgOC43MjgxMVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTkuMzMxNiAyLjAzNzY4QzExLjE2NDQgMS41NDY4OCAxMy4wMjY4IDIuMDQ2NjggMTQuMzU2IDMuMjAxNzJDMTYuMDg1OSAyLjg2NTEyIDE3Ljk1MTEgMy4zNjQxOCAxOS4yOTM1IDQuNzA2NjNDMjAuNjM1NiA2LjA0ODgyIDIxLjEzMjYgNy45MTI4OCAyMC43OTY0IDkuNjQyMTdDMjEuOTUyNyAxMC45NzE2IDIyLjQ1MzQgMTIuODM0OSAyMS45NjI1IDE0LjY2ODVDMjEuNDcxMSAxNi41MDI1IDIwLjEwNTEgMTcuODY1NyAxOC40MzkgMTguNDM5QzE3Ljg2NTggMjAuMTA0NyAxNi41MDMgMjEuNDcgMTQuNjY5NSAyMS45NjE1QzEyLjgzNTYgMjIuNDUyOCAxMC45NzI3IDIxLjk1MTkgOS42NDMxMiAyMC43OTU1QzcuOTEzNzEgMjEuMTMxOSA2LjA0OTkzIDIwLjYzNSA0LjcwNzU3IDE5LjI5MjZDMy4zNjU1OCAxNy45NTA1IDIuODY2NTkgMTYuMDg2NiAzLjIwMjY5IDE0LjM1N0MyLjA0NjkzIDEzLjAyNzMgMS41NDc1NyAxMS4xNjM4IDIuMDM4NjMgOS4zMzA2NUMyLjUyOTk3IDcuNDk3NTkgMy44OTQzNiA2LjEzMjgyIDUuNTYwMTEgNS41NTkxN0M2LjEzMzgyIDMuODkzNSA3LjQ5ODM3IDIuNTI4OTEgOS4zMzE2IDIuMDM3NjhaTTEzLjI2MjMgNC42MzUzNEMxMi4zNjA2IDMuODAxNDkgMTEuMDY3IDMuNDM2MSA5Ljc5NzQyIDMuNzc1OTZDOC41Mjc0NSA0LjExNjI2IDcuNTg5MjQgNS4wNzk2IDcuMjI1MTUgNi4yNTI1M0M3LjA4MTQ1IDYuNzE1NzUgNi43MTc1MyA3LjA3OTI4IDYuMjU0NDUgNy4yMjMyM0M1LjA4MTMzIDcuNTg3MDIgNC4xMTg0NCA4LjUyNjIyIDMuNzc3ODkgOS43OTY0N0MzLjQzNzU5IDExLjA2NjcgMy44MDE0OCAxMi4zNjA2IDQuNjM1MzEgMTMuMjYyM0M0Ljk2NDY3IDEzLjYxODQgNS4wOTc3NiAxNC4xMTU0IDQuOTkwNzggMTQuNTg4NUM0LjcxOTM5IDE1Ljc4NjQgNS4wNTEwOSAxNy4wODkxIDUuOTgxMDEgMTguMDE5MUM2LjkxMDg1IDE4Ljk0OSA4LjIxMzQ1IDE5LjI4MDEgOS40MTE2OCAxOS4wMDg0TDkuNTg5NDEgMTguOTc5MUM5Ljk0Njk1IDE4Ljk0MzIgMTAuMzA2NSAxOS4wMzk3IDEwLjU5ODIgMTkuMjQ5NkwxMC43Mzc4IDE5LjM2MzlMMTAuOTExNyAxOS41MTQyQzExLjgwMTUgMjAuMjQwNyAxMy4wMTI3IDIwLjU0MTMgMTQuMjAzNyAyMC4yMjIzQzE1LjQ3MzMgMTkuODgxOCAxNi40MTExIDE4LjkxOTEgMTYuNzc1IDE3Ljc0NTdDMTYuOTE4OSAxNy4yODI0IDE3LjI4MzIgMTYuOTE4NiAxNy43NDY2IDE2Ljc3NUwxNy45NjM0IDE2LjY5OThDMTkuMDM3NiAxNi4yOTIzIDE5LjkwNTEgMTUuMzkzNiAyMC4yMjQyIDE0LjIwMjdDMjAuNTY0MSAxMi45MzI4IDIwLjE5ODkgMTEuNjM4NSAxOS4zNjQ4IDEwLjczNjlDMTkuMDM1MyAxMC4zODA2IDE4LjkwMjEgOS44ODM5OSAxOS4wMDkzIDkuNDEwNzNMMTkuMDUzMyA5LjE4NTE0QzE5LjIzNzIgOC4wNTE0IDE4Ljg5MTcgNi44NTE3NiAxOC4wMjAxIDUuOTgwMDZDMTcuMDkwMSA1LjA1MDAzIDE1Ljc4NjUgNC43MTgyNiAxNC41ODg0IDQuOTg5ODNDMTQuMTE1MyA1LjA5NzEyIDEzLjYxODYgNC45NjQ2NyAxMy4yNjIzIDQuNjM1MzRaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+">
+
+  <locale lang="en" description="Track Codex quota resets and get notified when a new announcement drops." />
 
   <permissions>
     <network origin="https://codex-resets.com" />
@@ -24,11 +27,9 @@
     </input>
   </inputs>
 
-  <docs><![CDATA[数据来自 codex-resets.com 公开 API，每 2 分钟检查一次，出现新公告时发系统通知（可在设置关闭）。面板展示最近 3 条公告与近 4 个月重置日历，完整归档见官网。界面语言跟随 Metrix.Bar 显示语言。
+  <docs><![CDATA[数据来自 codex-resets.com 公开 API，每 2 分钟检查一次，出现新公告时发系统通知（可在设置关闭）。面板展示最近 3 条公告与近 4 个月重置日历，完整归档见官网。界面语言跟随 Metrix.Bar 显示语言。]]><locale lang="en"><![CDATA[Data comes from the public codex-resets.com API and is checked every 2 minutes; a system notification fires when a new announcement appears (can be turned off in settings). The panel shows the latest 3 announcements and a four-month reset calendar; see codex-resets.com for the full archive. The interface language follows your Metrix.Bar display language.]]></locale></docs>
 
-English: data from the public codex-resets.com API, checked every 2 minutes, with optional notifications on new announcements. The panel shows the latest 3 announcements and a 4-month calendar; see codex-resets.com for the full archive. The language follows your Metrix.Bar display language.]]></docs>
-
-  <script apis="screenshot clipboard shell"><![CDATA[
+  <script apis="screenshot clipboard shell notification caches"><![CDATA[
 // src/time.js
 function relTime(iso) {
   const t2 = Date.parse(iso || "");
@@ -138,7 +139,7 @@ var I18N = {
     "\u7F51\u7EDC\u9519\u8BEF": (status) => "\u8BF7\u6C42\u5931\u8D25\uFF1AHTTP " + status,
     "\u683C\u5F0F\u9519\u8BEF": "\u54CD\u5E94\u65E0\u6548\u3002",
     "\u901A\u77E5\u6807\u9898": "Codex \u989D\u5EA6\u5DF2\u91CD\u7F6E",
-    "\u901A\u77E5\u515C\u5E95": "\u67E5\u770B\u516C\u544A\u539F\u6587",
+    "\u901A\u77E5\u515C\u5E95": "\u70B9\u51FB\u67E5\u770B\u516C\u544A",
     "\u622A\u56FE\u4E0D\u652F\u6301": "\u8BF7\u5347\u7EA7 Metrix.Bar",
     "\u622A\u56FE\u6210\u529F": "\u5DF2\u590D\u5236\u622A\u56FE",
     "\u622A\u56FE\u5931\u8D25": (msg) => "\u622A\u56FE\u5931\u8D25\uFF1A" + msg,
@@ -184,7 +185,7 @@ var I18N = {
     "\u7F51\u7EDC\u9519\u8BEF": (status) => "Request failed: HTTP " + status,
     "\u683C\u5F0F\u9519\u8BEF": "Invalid response.",
     "\u901A\u77E5\u6807\u9898": "Codex quota reset",
-    "\u901A\u77E5\u515C\u5E95": "Open the announcement",
+    "\u901A\u77E5\u515C\u5E95": "Click to open the announcement",
     "\u622A\u56FE\u4E0D\u652F\u6301": "Update Metrix.Bar to screenshot",
     "\u622A\u56FE\u6210\u529F": "Screenshot copied",
     "\u622A\u56FE\u5931\u8D25": (msg) => "Screenshot failed: " + msg,
@@ -236,6 +237,13 @@ async function getJSON(url) {
   } catch {
   }
   if (!body || typeof body !== "object") throw new Error(t("\u683C\u5F0F\u9519\u8BEF"));
+  try {
+    const saved = new Response(JSON.stringify(body), {
+      headers: { "content-type": "application/json", "x-saved-at": String(Date.now()) }
+    });
+    await caches.default.put(url, saved);
+  } catch {
+  }
   return body;
 }
 
@@ -324,19 +332,39 @@ async function load(env) {
       const on = !(env && env.inputs && env.inputs.notifyEnabled === false);
       if (on) {
         const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "\u2026" : latest.text;
-        $metrix.notify(t("\u901A\u77E5\u6807\u9898"), summary || t("\u901A\u77E5\u515C\u5E95"));
+        const n = new Notification(t("\u901A\u77E5\u6807\u9898"), { body: summary || t("\u901A\u77E5\u515C\u5E95"), tag: "reset" });
+        if (latest.url) n.onclick = () => $metrix.openURL(latest.url);
         $metrix.toast(t("\u901A\u77E5\u6807\u9898"));
       }
     }
     state.seenId = latest.id;
   }
 }
+async function loadFromCache(e) {
+  state.error = String(e && e.message || e);
+  if (state.status || state.resets.length) return;
+  const c = globalThis.caches && caches.default;
+  if (!c) return;
+  try {
+    const [st, rs] = await Promise.all([
+      c.match(API + "/status"),
+      c.match(API + "/resets?limit=100")
+    ]);
+    const savedAt = st && st.headers ? Number(st.headers.get("x-saved-at")) || 0 : 0;
+    const next = st ? readStatus(await st.json()) : null;
+    const rawList = rs ? await rs.json() : null;
+    const list = Array.isArray(rawList && rawList.data) ? rawList.data.map(readReset).filter(Boolean) : [];
+    if (!next && !list.length) return;
+    state.status = next;
+    state.resets = list;
+    state.lastLoadedAt = savedAt || state.lastLoadedAt;
+  } catch {
+  }
+}
 function refresh(env) {
   if (inflight) return inflight;
   $metrix.invalidate();
-  inflight = load(env).catch((e) => {
-    state.error = String(e && e.message || e);
-  }).finally(() => {
+  inflight = load(env).catch(loadFromCache).finally(() => {
     inflight = null;
     $metrix.invalidate();
   });
@@ -745,7 +773,7 @@ function trayTree() {
   if (days == null) days = daysSince(s && s.lastResetAt || latest && latest.at || "");
   const title = days != null ? fmtDays(days) + "d" : state.error ? "!" : "\u2014";
   const tip = latest && latest.text ? "Codex Resets \xB7 " + t("\u6258\u76D8\u6700\u8FD1\u91CD\u7F6E") + relTime(latest.at) + " \xB7 " + latest.text.slice(0, 60) : "Codex Resets";
-  return {
+  const tray = {
     icon: CODEX_ICON,
     iconTemplate: true,
     title,
@@ -754,6 +782,8 @@ function trayTree() {
       { label: t("\u83DC\u5355\u6253\u5F00\u5B98\u7F51"), onClick: openSite }
     ]
   };
+  if (!state.status && !state.resets.length && state.error) tray.error = state.error;
+  return tray;
 }
 function panelTree() {
   const inner = isSharing() ? el("Column", { fillWidth: true, height: SHOT_HEIGHT, background: C.PAPER }, Body()) : el("Scroll", { grow: 1, basis: 0, fillWidth: true }, Body());

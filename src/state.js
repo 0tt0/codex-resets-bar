@@ -59,7 +59,9 @@ async function load(env) {
       const on = !(env && env.inputs && env.inputs.notifyEnabled === false);
       if (on) {
         const summary = latest.text.length > 120 ? latest.text.slice(0, 117) + "…" : latest.text;
-        $metrix.notify(t("通知标题"), summary || t("通知兜底"));
+        // 原生通知：tag 相同的新通知替换旧的（不堆叠）；点击直达公告原文（需 apis="notification"）
+        const n = new Notification(t("通知标题"), { body: summary || t("通知兜底"), tag: "reset" });
+        if (latest.url) n.onclick = () => $metrix.openURL(latest.url);
         $metrix.toast(t("通知标题"));
       }
     }
@@ -67,11 +69,35 @@ async function load(env) {
   }
 }
 
+// 离线兜底：load 失败且内存无数据（冷启动/断网）时读 caches 里上次成功响应
+// （需要 <script apis="caches">）。命中则走与成功路径相同的归一填充 state，
+// lastLoadedAt 取缓存响应的 x-saved-at，state.error 保持非空（更新行显示「上次失败」）。
+async function loadFromCache(e) {
+  state.error = String((e && e.message) || e);
+  if (state.status || state.resets.length) return;   // 已有数据：沿用保留旧数据行为
+  const c = globalThis.caches && caches.default;
+  if (!c) return;                                    // caches 不可用（旧宿主）：按未命中处理
+  try {
+    const [st, rs] = await Promise.all([
+      c.match(API + "/status"),
+      c.match(API + "/resets?limit=100"),
+    ]);
+    const savedAt = st && st.headers ? Number(st.headers.get("x-saved-at")) || 0 : 0;
+    const next = st ? readStatus(await st.json()) : null;
+    const rawList = rs ? await rs.json() : null;
+    const list = Array.isArray(rawList && rawList.data) ? rawList.data.map(readReset).filter(Boolean) : [];
+    if (!next && !list.length) return;               // 缓存未命中：维持 problem 相位
+    state.status = next;
+    state.resets = list;
+    state.lastLoadedAt = savedAt || state.lastLoadedAt;
+  } catch { /* 缓存读取失败按未命中处理 */ }
+}
+
 export function refresh(env) {
   if (inflight) return inflight;
   $metrix.invalidate();
   inflight = load(env)
-    .catch(e => { state.error = String(e && e.message || e); })   // 失败保留旧数据
+    .catch(loadFromCache)   // 失败：有数据保留旧数据；无数据走缓存兜底
     .finally(() => { inflight = null; $metrix.invalidate(); });
   return inflight;
 }

@@ -301,7 +301,7 @@ function trayTree() {
   const tip = latest && latest.text
     ? "Codex Resets · " + t("托盘最近重置") + relTime(latest.at) + " · " + latest.text.slice(0, 60)
     : "Codex Resets";
-  return {
+  const tray = {
     icon: CODEX_ICON,
     iconTemplate: true,
     title,
@@ -310,6 +310,9 @@ function trayTree() {
       { label: t("菜单打开官网"), onClick: openSite },
     ],
   };
+  // 无数据且有错误（problem 相位）：带出 error，tooltip 级联优先显示它，替代只有 "!" 的信息缺失
+  if (!state.status && !state.resets.length && state.error) tray.error = state.error;
+  return tray;
 }
 
 function panelTree() {

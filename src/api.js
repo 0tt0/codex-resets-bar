@@ -32,12 +32,20 @@ export function readStatus(body) {
   };
 }
 
-// 两段式报错：HTTP 状态 / 响应无效（JSON 解析失败与形状异常统一报后者）
+// 两段式报错：HTTP 状态 / 响应无效（JSON 解析失败与形状异常统一报后者）。
+// 成功后写入 caches 离线兜底（需要 <script apis="caches">）：合成 Response 带
+// x-saved-at 头记录写入时间，供 state.js 兜底时读；缓存不可用时静默失败不影响主流程。
 export async function getJSON(url) {
   const res = await fetch(url, { headers: { Accept: "application/json" } });
   if (!res.ok) throw new Error(t("网络错误", res.status));
   let body = null;
   try { body = await res.json(); } catch { /* 解析失败视同无效响应 */ }
   if (!body || typeof body !== "object") throw new Error(t("格式错误"));
+  try {
+    const saved = new Response(JSON.stringify(body), {
+      headers: { "content-type": "application/json", "x-saved-at": String(Date.now()) },
+    });
+    await caches.default.put(url, saved);
+  } catch { /* 缓存不可用不影响主流程 */ }
   return body;
 }
