@@ -9,7 +9,7 @@ import { join } from "node:path";
 import { CODEX_ICON } from "./src/icon.js";
 
 const OUT = "codex-resets.bar";
-const VERSION = "0.4.0";
+const VERSION = "0.4.1";
 
 async function bundle() {
   const result = await build({
@@ -29,7 +29,7 @@ async function bundle() {
 
 // .bar 模板：根元素全部属性 + permissions + inputs + docs + script CDATA。
 // 与 v0.2.0 保持一致：无 XML 声明，直接以 <bar> 开头。script 为构建产物，源码在 src/，请勿手改此文件。
-// description/docs 默认中文单语，<locale lang="en"> 提供英文（0.2.0–0.3.3 旧宿主忽略 locale，显示默认）。
+// description/docs/inputs 默认英文，<locale lang="zh-Hans"> 提供简体中文（0.2.0–0.3.3 旧宿主忽略 locale，显示默认）。
 const template = js => `<bar protocol-version="0"
      id="codex-resets"
      title="Codex Resets"
@@ -39,11 +39,11 @@ const template = js => `<bar protocol-version="0"
      refresh="2m"
      placements="menubar"
      open-mode="flyout"
-     description="追踪 Codex 额度重置公告，新公告即提醒"
+     description="Track Codex quota resets and get notified when a new announcement drops."
      homepage="https://codex-resets.com"
      icon="${CODEX_ICON}">
 
-  <locale lang="en" description="Track Codex quota resets and get notified when a new announcement drops." />
+  <locale lang="zh-Hans" description="追踪 Codex 额度重置公告，新公告即提醒" />
 
   <permissions>
     <network origin="https://codex-resets.com" />
@@ -53,13 +53,13 @@ const template = js => `<bar protocol-version="0"
     <input name="notifyEnabled"
            type="bool"
            default="true"
-           label="新重置提醒"
-           help="检测到新的额度重置公告时发送系统通知。">
-      <locale lang="en" label="New reset alerts" help="Send a system notification when a new reset announcement appears." />
+           label="New reset alerts"
+           help="Send a system notification when a new reset announcement appears.">
+      <locale lang="zh-Hans" label="新重置提醒" help="检测到新的额度重置公告时发送系统通知。" />
     </input>
   </inputs>
 
-  <docs><![CDATA[数据来自 codex-resets.com 公开 API，每 2 分钟检查一次，出现新公告时发系统通知（可在设置关闭）。面板展示最近 3 条公告与近 4 个月重置日历，完整归档见官网。界面语言跟随 Metrix.Bar 显示语言。]]><locale lang="en"><![CDATA[Data comes from the public codex-resets.com API and is checked every 2 minutes; a system notification fires when a new announcement appears (can be turned off in settings). The panel shows the latest 3 announcements and a four-month reset calendar; see codex-resets.com for the full archive. The interface language follows your Metrix.Bar display language.]]></locale></docs>
+  <docs><![CDATA[Data comes from the public codex-resets.com API and is checked every 2 minutes; a system notification fires when a new announcement appears (can be turned off in settings). The panel shows the latest 3 announcements and a four-month reset calendar; see codex-resets.com for the full archive. The interface language follows your Metrix.Bar display language.]]><locale lang="zh-Hans"><![CDATA[数据来自 codex-resets.com 公开 API，每 2 分钟检查一次，出现新公告时发系统通知（可在设置关闭）。面板展示最近 3 条公告与近 4 个月重置日历，完整归档见官网。界面语言跟随 Metrix.Bar 显示语言。]]></locale></docs>
 
   <script apis="screenshot clipboard shell notification caches"><![CDATA[
 ${js}

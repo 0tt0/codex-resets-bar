@@ -8,12 +8,12 @@ A menu bar dashboard for [Metrix.Bar](https://metrix.bar) that watches OpenAI Co
 
 Open the link, then open the downloaded file — Metrix.Bar imports `.bar` files directly.
 
-- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.4.0/codex-resets.bar)
+- [`codex-resets.bar`](https://cdn.jsdelivr.net/gh/0tt0/codex-resets-bar@v0.4.1/codex-resets.bar)
 
 Or paste this into your browser's address bar to import straight from the CDN:
 
 ```text
-metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.4.0%2Fcodex-resets.bar&sha256=1fe53ef280b4405b5154c97a91d7af92638fe7792091ef75a5da575395259023
+metrixbar://install?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2F0tt0%2Fcodex-resets-bar%40v0.4.1%2Fcodex-resets.bar&sha256=37037299d08f08104c5f52649f70f1ab07a7970213edde3088c5e711e38c703d
 ```
 
 GitHub strips custom schemes from rendered Markdown, so that link is copyable text rather than a clickable anchor.
